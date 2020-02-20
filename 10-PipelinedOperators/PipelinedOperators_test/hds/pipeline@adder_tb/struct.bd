@@ -69,23 +69,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hdl"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tb\\struct.bd.info"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tb\\struct.bd.user"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -109,27 +109,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tb"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipelineAdder_tb"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipelineAdder_tb"
 )
 (vvPair
 variable "date"
-value "02/17/2020"
+value "02/20/2020"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "17"
+value "20"
 )
 (vvPair
 variable "designName"
@@ -161,7 +161,7 @@ value "zas"
 )
 (vvPair
 variable "graphical_source_date"
-value "02/17/2020"
+value "02/20/2020"
 )
 (vvPair
 variable "graphical_source_group"
@@ -173,7 +173,7 @@ value "ZELL"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:11:08"
+value "14:53:12"
 )
 (vvPair
 variable "group"
@@ -217,11 +217,11 @@ value "February"
 )
 (vvPair
 variable "p"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tb\\struct.bd"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipelineAdder_tb\\struct.bd"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipelineAdder_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -297,7 +297,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "17:11:08"
+value "14:53:12"
 )
 (vvPair
 variable "unit"
@@ -1564,8 +1564,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "245,37,1361,905"
-viewArea "-1100,-1100,74572,47284"
+windowSize "245,37,1362,905"
+viewArea "-1100,-1100,74465,59590"
 cachedDiagramExtent "0,0,73000,49000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ipp.hevs.ch\\PREA309_HPLJP3005DN,winspool,"
@@ -1590,7 +1590,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 2589,0
+lastUid 2626,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

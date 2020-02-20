@@ -15,20 +15,6 @@ itemName "ALL"
 ]
 instances [
 (Instance
-name "I_tester"
-duLibraryName "PipelinedOperators_test"
-duName "pipelineCounter_tester"
-elements [
-(GiElement
-name "counterBitNb"
-type "positive"
-value "counterBitNb"
-)
-]
-mwi 0
-uid 2178,0
-)
-(Instance
 name "I_DUT"
 duLibraryName "PipelinedOperators"
 duName "pipelineCounter"
@@ -47,6 +33,20 @@ value "pipelineStageNb"
 mwi 0
 uid 2719,0
 )
+(Instance
+name "I_tester"
+duLibraryName "PipelinedOperators_test"
+duName "PipelineCounter_tester"
+elements [
+(GiElement
+name "counterBitNb"
+type "integer"
+value "counterBitNb"
+)
+]
+mwi 0
+uid 2970,0
+)
 ]
 libraryRefs [
 "ieee"
@@ -64,23 +64,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hdl"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@counter_tb\\struct.bd.info"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@counter_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@counter_tb\\struct.bd.user"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@counter_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -104,27 +104,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@counter_tb"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@counter_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipelineCounter_tb"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipelineCounter_tb"
 )
 (vvPair
 variable "date"
-value "02/17/2020"
+value "02/20/2020"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "17"
+value "20"
 )
 (vvPair
 variable "designName"
@@ -156,7 +156,7 @@ value "zas"
 )
 (vvPair
 variable "graphical_source_date"
-value "02/17/2020"
+value "02/20/2020"
 )
 (vvPair
 variable "graphical_source_group"
@@ -168,7 +168,7 @@ value "ZELL"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:11:08"
+value "16:03:53"
 )
 (vvPair
 variable "group"
@@ -212,11 +212,11 @@ value "February"
 )
 (vvPair
 variable "p"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@counter_tb\\struct.bd"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@counter_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipelineCounter_tb\\struct.bd"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipelineCounter_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -292,7 +292,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "17:11:08"
+value "16:03:53"
 )
 (vvPair
 variable "unit"
@@ -638,75 +638,7 @@ xt "32000,44000,73000,49000"
 )
 oxt "14000,66000,55000,71000"
 )
-*12 (Blk
-uid 2178,0
-shape (Rectangle
-uid 2179,0
-va (VaSet
-vasetType 1
-fg "40000,56832,65535"
-)
-xt "18000,30000,58000,38000"
-)
-oxt "0,0,8000,10000"
-ttg (MlTextGroup
-uid 2180,0
-ps "CenterOffsetStrategy"
-stg "VerticalLayoutStrategy"
-textVec [
-*13 (Text
-uid 2181,0
-va (VaSet
-)
-xt "17850,38200,29850,39100"
-st "PipelinedOperators_test"
-blo "17850,38900"
-tm "BdLibraryNameMgr"
-)
-*14 (Text
-uid 2182,0
-va (VaSet
-)
-xt "17850,39400,29350,40300"
-st "pipelineCounter_tester"
-blo "17850,40100"
-tm "BlkNameMgr"
-)
-*15 (Text
-uid 2183,0
-va (VaSet
-)
-xt "17850,40600,21850,41500"
-st "I_tester"
-blo "17850,41300"
-tm "InstanceNameMgr"
-)
-]
-)
-ga (GenericAssociation
-uid 2184,0
-ps "EdgeToEdgeStrategy"
-matrix (Matrix
-uid 2185,0
-text (MLText
-uid 2186,0
-va (VaSet
-)
-xt "18000,42000,42500,43200"
-st "counterBitNb = counterBitNb    ( positive )  "
-)
-header ""
-)
-elements [
-(GiElement
-name "counterBitNb"
-type "positive"
-value "counterBitNb"
-)
-]
-)
-)
-*16 (Net
+*12 (Net
 uid 2648,0
 decl (Decl
 n "reset"
@@ -719,11 +651,11 @@ uid 2649,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,12800,14600,13800"
+xt "2000,13200,14600,14200"
 st "SIGNAL reset    : std_ulogic"
 )
 )
-*17 (Net
+*13 (Net
 uid 2656,0
 decl (Decl
 n "clock"
@@ -736,14 +668,14 @@ uid 2657,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,11000,14600,12000"
+xt "2000,11200,14600,12200"
 st "SIGNAL clock    : std_ulogic"
 )
 )
-*18 (SaComponent
+*14 (SaComponent
 uid 2719,0
 optionalChildren [
-*19 (CptPort
+*15 (CptPort
 uid 2707,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -780,7 +712,7 @@ suid 1,0
 )
 )
 )
-*20 (CptPort
+*16 (CptPort
 uid 2711,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -814,7 +746,7 @@ suid 2,0
 )
 )
 )
-*21 (CptPort
+*17 (CptPort
 uid 2715,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -866,34 +798,34 @@ uid 2721,0
 ps "CenterOffsetStrategy"
 stg "VerticalLayoutStrategy"
 textVec [
-*22 (Text
+*18 (Text
 uid 2722,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "30600,21800,40100,22700"
+xt "30600,22800,40100,23700"
 st "PipelinedOperators"
-blo "30600,22500"
+blo "30600,23500"
 tm "BdLibraryNameMgr"
 )
-*23 (Text
+*19 (Text
 uid 2723,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "30600,22700,38600,23600"
+xt "30600,23700,38600,24600"
 st "pipelineCounter"
-blo "30600,23400"
+blo "30600,24400"
 tm "CptNameMgr"
 )
-*24 (Text
+*20 (Text
 uid 2724,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "30600,23600,33100,24500"
+xt "30600,24600,33100,25500"
 st "I_DUT"
-blo "30600,24300"
+blo "30600,25300"
 tm "InstanceNameMgr"
 )
 ]
@@ -934,7 +866,7 @@ sTC 0
 )
 archFileType "UNKNOWN"
 )
-*25 (Net
+*21 (Net
 uid 2728,0
 decl (Decl
 n "countOut"
@@ -948,8 +880,77 @@ uid 2729,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,11900,26300,12900"
+xt "2000,12200,26300,13200"
 st "SIGNAL countOut : unsigned(counterBitNb-1 downto 0)"
+)
+)
+*22 (Blk
+uid 2970,0
+shape (Rectangle
+uid 2971,0
+va (VaSet
+vasetType 1
+fg "40000,56832,65535"
+)
+xt "17000,30000,60000,37000"
+)
+oxt "0,0,8000,10000"
+ttg (MlTextGroup
+uid 2972,0
+ps "CenterOffsetStrategy"
+stg "VerticalLayoutStrategy"
+textVec [
+*23 (Text
+uid 2973,0
+va (VaSet
+)
+xt "17800,37200,32200,38400"
+st "PipelinedOperators_test"
+blo "17800,38200"
+tm "BdLibraryNameMgr"
+)
+*24 (Text
+uid 2974,0
+va (VaSet
+)
+xt "17800,38400,31500,39600"
+st "PipelineCounter_tester"
+blo "17800,39400"
+tm "BlkNameMgr"
+)
+*25 (Text
+uid 2975,0
+va (VaSet
+)
+xt "17800,39600,22600,40800"
+st "I_tester"
+blo "17800,40600"
+tm "InstanceNameMgr"
+)
+]
+)
+ga (GenericAssociation
+uid 2976,0
+ps "EdgeToEdgeStrategy"
+matrix (Matrix
+uid 2977,0
+text (MLText
+uid 2978,0
+va (VaSet
+isHidden 1
+)
+xt "17800,43200,41800,44400"
+st "counterBitNb = counterBitNb    ( integer )  "
+)
+header ""
+)
+elements [
+(GiElement
+name "counterBitNb"
+type "integer"
+value "counterBitNb"
+)
+]
 )
 )
 *26 (Wire
@@ -966,8 +967,8 @@ pts [
 "28000,30000"
 ]
 )
-start &21
-end &12
+start &17
+end &22
 sat 32
 eat 2
 stc 0
@@ -989,7 +990,7 @@ blo "24250,19700"
 tm "WireNameMgr"
 )
 )
-on &16
+on &12
 )
 *27 (Wire
 uid 2658,0
@@ -1005,8 +1006,8 @@ pts [
 "26000,30000"
 ]
 )
-start &20
-end &12
+start &16
+end &22
 sat 32
 eat 2
 stc 0
@@ -1028,7 +1029,7 @@ blo "24250,17700"
 tm "WireNameMgr"
 )
 )
-on &17
+on &13
 )
 *28 (Wire
 uid 2730,0
@@ -1045,8 +1046,8 @@ pts [
 "50000,30000"
 ]
 )
-start &19
-end &12
+start &15
+end &22
 sat 32
 eat 1
 sty 1
@@ -1069,7 +1070,7 @@ blo "48750,17700"
 tm "WireNameMgr"
 )
 )
-on &25
+on &21
 )
 ]
 bg "65535,65535,65535"
@@ -1181,8 +1182,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "197,65,1313,933"
-viewArea "-1000,-1000,76774,50800"
+windowSize "723,207,1841,1075"
+viewArea "-7604,-9731,70271,52744"
 cachedDiagramExtent "0,0,73000,49000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ipp.hevs.ch\\PREA309_HPLJP3005DN,winspool,"
@@ -1207,7 +1208,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 2911,0
+lastUid 2978,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2157,9 +2158,9 @@ uid 6,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "0,10100,8500,11000"
+xt "0,10300,8500,11200"
 st "Diagram Signals:"
-blo "0,10800"
+blo "0,11000"
 )
 postUserLabel (Text
 uid 7,0
