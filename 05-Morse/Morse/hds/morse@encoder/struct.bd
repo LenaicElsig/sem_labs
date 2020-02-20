@@ -151,19 +151,19 @@ value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\
 )
 (vvPair
 variable "date"
-value "02/18/2020"
+value "02/19/2020"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "18"
+value "19"
 )
 (vvPair
 variable "designName"
@@ -195,7 +195,7 @@ value "zas"
 )
 (vvPair
 variable "graphical_source_date"
-value "02/18/2020"
+value "02/19/2020"
 )
 (vvPair
 variable "graphical_source_group"
@@ -207,7 +207,7 @@ value "ZELL"
 )
 (vvPair
 variable "graphical_source_time"
-value "07:28:26"
+value "14:47:36"
 )
 (vvPair
 variable "group"
@@ -303,7 +303,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "07:28:26"
+value "14:47:36"
 )
 (vvPair
 variable "unit"
@@ -392,8 +392,9 @@ declText (MLText
 uid 22,0
 va (VaSet
 )
-xt "-4000,8500,9700,9700"
-st "clock          : std_ulogic"
+xt "-4000,9000,9700,10200"
+st "clock          : std_ulogic
+"
 )
 )
 *3 (Net
@@ -408,8 +409,9 @@ declText (MLText
 uid 36,0
 va (VaSet
 )
-xt "-4000,7600,11500,8800"
-st "morseCode      : std_ulogic"
+xt "-4000,7800,11500,9000"
+st "morseCode      : std_ulogic
+"
 )
 )
 *4 (PortIoIn
@@ -470,8 +472,9 @@ declText (MLText
 uid 50,0
 va (VaSet
 )
-xt "-4000,9400,9600,10600"
-st "reset          : std_ulogic"
+xt "-4000,10200,9600,11400"
+st "reset          : std_ulogic
+"
 )
 )
 *6 (Grouping
@@ -1080,15 +1083,16 @@ decl (Decl
 n "characterIn"
 t "std_ulogic_vector"
 b "(uartDataBitNb-1 DOWNTO 0)"
-o 5
+o 6
 suid 9,0
 )
 declText (MLText
 uid 352,0
 va (VaSet
 )
-xt "-4000,13900,35600,15100"
-st "SIGNAL characterIn    : std_ulogic_vector(uartDataBitNb-1 DOWNTO 0)"
+xt "-4000,17000,35600,18200"
+st "SIGNAL characterIn    : std_ulogic_vector(uartDataBitNb-1 DOWNTO 0)
+"
 )
 )
 *27 (Net
@@ -1103,8 +1107,9 @@ declText (MLText
 uid 354,0
 va (VaSet
 )
-xt "-4000,15700,16200,16900"
-st "SIGNAL characterValid : std_ulogic"
+xt "-4000,18200,16200,19400"
+st "SIGNAL characterValid : std_ulogic
+"
 )
 )
 *28 (Net
@@ -1113,15 +1118,16 @@ decl (Decl
 n "characterReg"
 t "std_ulogic_vector"
 b "(uartDataBitNb-1 DOWNTO 0)"
-o 6
+o 5
 suid 11,0
 )
 declText (MLText
 uid 436,0
 va (VaSet
 )
-xt "-4000,14800,36100,16000"
-st "SIGNAL characterReg   : std_ulogic_vector(uartDataBitNb-1 DOWNTO 0)"
+xt "-4000,15800,36100,17000"
+st "SIGNAL characterReg   : std_ulogic_vector(uartDataBitNb-1 DOWNTO 0)
+"
 )
 )
 *29 (HdlText
@@ -1223,8 +1229,9 @@ declText (MLText
 uid 721,0
 va (VaSet
 )
-xt "-4000,16600,15600,17800"
-st "SIGNAL morseOut       : std_ulogic"
+xt "-4000,19400,15600,20600"
+st "SIGNAL morseOut       : std_ulogic
+"
 )
 )
 *34 (Net
@@ -1239,8 +1246,9 @@ declText (MLText
 uid 733,0
 va (VaSet
 )
-xt "-4000,17500,14000,18700"
-st "SIGNAL tone           : std_ulogic"
+xt "-4000,20600,14000,21800"
+st "SIGNAL tone           : std_ulogic
+"
 )
 )
 *35 (SaComponent
@@ -1761,8 +1769,9 @@ declText (MLText
 uid 1090,0
 va (VaSet
 )
-xt "-4000,18400,16500,19600"
-st "SIGNAL charNotReady   : std_ulogic"
+xt "-4000,21800,16500,23000"
+st "SIGNAL charNotReady   : std_ulogic
+"
 )
 )
 *53 (Net
@@ -1777,8 +1786,9 @@ declText (MLText
 uid 1096,0
 va (VaSet
 )
-xt "-4000,19300,15200,20500"
-st "SIGNAL readChar       : std_ulogic"
+xt "-4000,23000,15200,24200"
+st "SIGNAL readChar       : std_ulogic
+"
 )
 )
 *54 (PortIoOut
@@ -1837,8 +1847,9 @@ declText (MLText
 uid 1557,0
 va (VaSet
 )
-xt "-4000,10300,9700,11500"
-st "RxD            : std_ulogic"
+xt "-4000,11400,9700,12600"
+st "RxD            : std_ulogic
+"
 )
 )
 *56 (PortIoIn
@@ -3027,7 +3038,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-6000,0"
-lastUid 1855,0
+lastUid 1896,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4004,24 +4015,24 @@ uid 3,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "-6000,6700,-2600,7700"
+xt "-6000,6800,-2600,7800"
 st "Ports:"
-blo "-6000,7500"
+blo "-6000,7600"
 )
 preUserLabel (Text
 uid 4,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "-6000,11200,-1200,12200"
+xt "-6000,12600,-1200,13600"
 st "Pre User:"
-blo "-6000,12000"
+blo "-6000,13400"
 )
 preUserText (MLText
 uid 5,0
 va (VaSet
 )
-xt "-4000,12100,16500,13300"
+xt "-4000,13600,16500,14800"
 st "constant fifoDepth : positive := 100;"
 tm "BdDeclarativeTextMgr"
 )
@@ -4030,9 +4041,9 @@ uid 6,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "-6000,13000,3000,14000"
+xt "-6000,14800,3000,15800"
 st "Diagram Signals:"
-blo "-6000,13800"
+blo "-6000,15600"
 )
 postUserLabel (Text
 uid 7,0
@@ -4136,7 +4147,7 @@ decl (Decl
 n "characterIn"
 t "std_ulogic_vector"
 b "(uartDataBitNb-1 DOWNTO 0)"
-o 5
+o 6
 suid 9,0
 )
 )
@@ -4161,7 +4172,7 @@ decl (Decl
 n "characterReg"
 t "std_ulogic_vector"
 b "(uartDataBitNb-1 DOWNTO 0)"
-o 6
+o 5
 suid 11,0
 )
 )

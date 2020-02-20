@@ -27,30 +27,30 @@ libraryRefs [
 "ieee"
 ]
 )
-version "26.1"
-appVersion "2018.1 (Build 12)"
+version "27.1"
+appVersion "2019.2 (Build 5)"
 model (StateMachine
 VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Morse/Prefs/../Morse/hdl"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Morse/Prefs/../Morse/hds"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Morse/Prefs/../Morse/hds/char@to@morse@controller/fsm.sm.info"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds\\char@to@morse@controller\\fsm.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Morse/Prefs/../Morse/hds/char@to@morse@controller/fsm.sm.user"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds\\char@to@morse@controller\\fsm.sm.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Morse/Prefs/../Morse/hds"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds"
 )
 (vvPair
 variable "appl"
@@ -74,27 +74,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Morse/Prefs/../Morse/hds/char@to@morse@controller"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds\\char@to@morse@controller"
 )
 (vvPair
 variable "d_logical"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Morse/Prefs/../Morse/hds/charToMorseController"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds\\charToMorseController"
 )
 (vvPair
 variable "date"
-value "03/29/19"
+value "02/19/2020"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "29"
+value "19"
 )
 (vvPair
 variable "designName"
@@ -122,31 +122,31 @@ value "fsm"
 )
 (vvPair
 variable "graphical_source_author"
-value "francois"
+value "zas"
 )
 (vvPair
 variable "graphical_source_date"
-value "03/29/19"
+value "02/19/2020"
 )
 (vvPair
 variable "graphical_source_group"
-value "francois"
+value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "Aphelia"
+value "ZELL"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:13:01"
+value "14:49:42"
 )
 (vvPair
 variable "group"
-value "francois"
+value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "Aphelia"
+value "ZELL"
 )
 (vvPair
 variable "language"
@@ -162,7 +162,7 @@ value "$SCRATCH_DIR/Morse"
 )
 (vvPair
 variable "mm"
-value "03"
+value "02"
 )
 (vvPair
 variable "module_name"
@@ -170,19 +170,19 @@ value "charToMorseController"
 )
 (vvPair
 variable "month"
-value "Mar"
+value "Feb"
 )
 (vvPair
 variable "month_long"
-value "March"
+value "February"
 )
 (vvPair
 variable "p"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Morse/Prefs/../Morse/hds/char@to@morse@controller/fsm.sm"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds\\char@to@morse@controller\\fsm.sm"
 )
 (vvPair
 variable "p_logical"
-value "/home/francois/Documents/HEVs/SEm/SEm_labs/VHDL/Morse/Prefs/../Morse/hds/charToMorseController/fsm.sm"
+value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds\\charToMorseController\\fsm.sm"
 )
 (vvPair
 variable "package_name"
@@ -190,7 +190,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "morse"
+value "hds"
 )
 (vvPair
 variable "series"
@@ -230,7 +230,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "09:13:01"
+value "14:49:42"
 )
 (vvPair
 variable "unit"
@@ -238,11 +238,11 @@ value "charToMorseController"
 )
 (vvPair
 variable "user"
-value "francois"
+value "zas"
 )
 (vvPair
 variable "version"
-value "2018.1 (Build 12)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -250,11 +250,11 @@ value "fsm"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2020"
 )
 (vvPair
 variable "yy"
-value "19"
+value "20"
 )
 ]
 )
@@ -282,7 +282,7 @@ radius 8000
 name (Text
 uid 41,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "34000,21300,44000,22700"
 st "waitForChar"
@@ -298,9 +298,9 @@ uid 43,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "39100,22200,42700,23400"
+xt "39100,22200,43200,23400"
 st "wait 2"
 blo "39100,23200"
 tm "SmWaitText"
@@ -310,7 +310,7 @@ encoding (Text
 uid 44,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "39000,23100,39000,23100"
 blo "39000,23100"
@@ -415,9 +415,9 @@ text (MLText
 uid 46,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "37400,23000,42900,23900"
+xt "37400,23000,43500,24000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -476,9 +476,9 @@ ps "CenterOffsetStrategy"
 text (Text
 uid 62,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "650,10500,2750,11500"
+xt "250,10500,2750,11500"
 st "clock"
 ju 2
 blo "2750,11300"
@@ -501,9 +501,9 @@ autoResize 1
 cond (MLText
 uid 65,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "5600,10550,19900,11450"
+xt "5600,10550,18400,11550"
 st "clock'EVENT AND clock = '1'"
 tm "SmControlConditionMgr"
 )
@@ -592,9 +592,9 @@ cond (MLText
 uid 80,0
 va (VaSet
 isHidden 1
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "1750,18050,7950,18950"
+xt "1750,18050,6950,19050"
 st "reset = '1'"
 tm "SmControlConditionMgr"
 )
@@ -618,10 +618,10 @@ uid 77,0
 va (VaSet
 isHidden 1
 )
-xt "5881,19500,6681,20500"
+xt "5581,19500,6981,20700"
 st "1"
 ju 0
-blo "6281,20300"
+blo "6281,20500"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -632,9 +632,9 @@ ps "CenterOffsetStrategy"
 text (Text
 uid 74,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "1150,19500,3250,20500"
+xt "750,19500,3250,20500"
 st "reset"
 ju 2
 blo "3250,20300"
@@ -648,9 +648,9 @@ text (MLText
 uid 82,0
 va (VaSet
 isHidden 1
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "11125,24125,18125,25025"
+xt "11125,24125,18125,25125"
 st "< Automatic >"
 tm "Actions"
 )
@@ -691,9 +691,9 @@ ps "CenterOffsetStrategy"
 text (Text
 uid 88,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "19750,19500,25050,20500"
+xt "19750,19500,26550,20500"
 st "waitForChar"
 blo "19750,20300"
 tm "LinkName"
@@ -780,9 +780,9 @@ ps "CenterOffsetStrategy"
 text (Text
 uid 99,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "19750,14500,25050,15500"
+xt "19750,14500,26550,15500"
 st "waitForChar"
 blo "19750,15300"
 tm "LinkName"
@@ -810,7 +810,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "223200,170000,239400,171000"
+xt "223200,170500,223200,170500"
 st "
 by %user on %dd %month %year
 "
@@ -841,7 +841,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "240200,166000,243800,167000"
+xt "240200,166500,240200,166500"
 st "
 Project:
 "
@@ -872,7 +872,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "223200,168000,239400,169000"
+xt "223200,168500,223200,168500"
 st "
 <enter diagram title here>
 "
@@ -903,7 +903,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "219200,168000,222800,169000"
+xt "219200,168500,219200,168500"
 st "
 Title:
 "
@@ -934,7 +934,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "240200,167200,253400,168200"
+xt "240200,167200,254300,168400"
 st "
 <enter comments here>
 "
@@ -964,7 +964,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "244200,166000,247200,167000"
+xt "244200,166500,244200,166500"
 st "
 %project_name
 "
@@ -994,7 +994,7 @@ uid 142,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "225000,166500,234000,167500"
+xt "224350,166400,234650,167600"
 st "
 <company name>
 "
@@ -1026,7 +1026,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "219200,169000,222200,170000"
+xt "219200,169500,219200,169500"
 st "
 Path:
 "
@@ -1057,7 +1057,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "219200,170000,222800,171000"
+xt "219200,170500,219200,170500"
 st "
 Edited:
 "
@@ -1088,7 +1088,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "223200,169000,233400,170000"
+xt "223200,169500,223200,169500"
 st "
 %library/%unit/%view
 "
@@ -1130,7 +1130,7 @@ radius 8000
 name (Text
 uid 166,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "65300,21300,72700,22700"
 st "storeChar"
@@ -1146,9 +1146,9 @@ uid 168,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "69100,22200,72700,23400"
+xt "69100,22200,73200,23400"
 st "wait 2"
 blo "69100,23200"
 tm "SmWaitText"
@@ -1158,7 +1158,7 @@ encoding (Text
 uid 169,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "69000,23100,69000,23100"
 blo "69000,23100"
@@ -1263,9 +1263,9 @@ text (MLText
 uid 171,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "67400,23000,72900,23900"
+xt "67400,23000,73500,24000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -1287,7 +1287,7 @@ radius 8000
 name (Text
 uid 193,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "101750,21300,112250,22700"
 st "sendDotStart"
@@ -1303,9 +1303,9 @@ uid 195,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "107100,22200,110700,23400"
+xt "107100,22200,111200,23400"
 st "wait 2"
 blo "107100,23200"
 tm "SmWaitText"
@@ -1315,7 +1315,7 @@ encoding (Text
 uid 196,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "107000,23100,107000,23100"
 blo "107000,23100"
@@ -1403,7 +1403,7 @@ inActions (MLText
 uid 206,0
 va (VaSet
 )
-xt "100750,25500,113350,26500"
+xt "100750,25500,112950,26700"
 st "startCounter <= '1';"
 tm "Actions"
 )
@@ -1422,9 +1422,9 @@ text (MLText
 uid 198,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "105400,23000,110900,23900"
+xt "105400,23000,111500,24000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -1446,7 +1446,7 @@ radius 8000
 name (Text
 uid 327,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "123850,21300,134150,22700"
 st "sendDotWait"
@@ -1462,9 +1462,9 @@ uid 329,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "129100,22200,132700,23400"
+xt "129100,22200,133200,23400"
 st "wait 2"
 blo "129100,23200"
 tm "SmWaitText"
@@ -1474,7 +1474,7 @@ encoding (Text
 uid 330,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "129000,23100,129000,23100"
 blo "129000,23100"
@@ -1562,7 +1562,7 @@ inActions (MLText
 uid 340,0
 va (VaSet
 )
-xt "121300,24000,145900,26000"
+xt "121300,24000,144700,26400"
 st "unitNb <= to_unsigned(1, unitNb'length);
 morseOut <= '1';"
 tm "Actions"
@@ -1582,9 +1582,9 @@ text (MLText
 uid 332,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "127400,23000,132900,23900"
+xt "127400,23000,133500,24000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -1606,7 +1606,7 @@ radius 8584
 name (Text
 uid 366,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "144450,21300,159550,22700"
 st "sendDotSpacerStart"
@@ -1622,9 +1622,9 @@ uid 368,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "152100,22200,155700,23400"
+xt "152100,22200,156200,23400"
 st "wait 2"
 blo "152100,23200"
 tm "SmWaitText"
@@ -1634,7 +1634,7 @@ encoding (Text
 uid 369,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "152000,23100,152000,23100"
 blo "152000,23100"
@@ -1722,7 +1722,7 @@ inActions (MLText
 uid 379,0
 va (VaSet
 )
-xt "149100,24500,161700,25500"
+xt "149100,24500,161300,25700"
 st "startCounter <= '1';"
 tm "Actions"
 )
@@ -1741,9 +1741,9 @@ text (MLText
 uid 371,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "150400,23000,155900,23900"
+xt "150400,23000,156500,24000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -1765,7 +1765,7 @@ radius 8485
 name (Text
 uid 383,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "166550,21300,181450,22700"
 st "sendDotSpacerWait"
@@ -1781,9 +1781,9 @@ uid 385,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "174100,22200,177700,23400"
+xt "174100,22200,178200,23400"
 st "wait 2"
 blo "174100,23200"
 tm "SmWaitText"
@@ -1793,7 +1793,7 @@ encoding (Text
 uid 386,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "174000,23100,174000,23100"
 blo "174000,23100"
@@ -1881,7 +1881,7 @@ inActions (MLText
 uid 396,0
 va (VaSet
 )
-xt "166300,24500,190900,25500"
+xt "166300,24500,189700,25700"
 st "unitNb <= to_unsigned(1, unitNb'length);"
 tm "Actions"
 )
@@ -1900,9 +1900,9 @@ text (MLText
 uid 388,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "172400,23000,177900,23900"
+xt "172400,23000,178500,24000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -1924,7 +1924,7 @@ radius 8000
 name (Text
 uid 430,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "205600,21300,218400,22700"
 st "sendDotDotStart"
@@ -1940,9 +1940,9 @@ uid 432,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "212100,22200,215700,23400"
+xt "212100,22200,216200,23400"
 st "wait 2"
 blo "212100,23200"
 tm "SmWaitText"
@@ -1952,7 +1952,7 @@ encoding (Text
 uid 433,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "212000,23100,212000,23100"
 blo "212000,23100"
@@ -2040,7 +2040,7 @@ inActions (MLText
 uid 443,0
 va (VaSet
 )
-xt "208100,24500,220700,25500"
+xt "208100,24500,220300,25700"
 st "startCounter <= '1';"
 tm "Actions"
 )
@@ -2059,9 +2059,9 @@ text (MLText
 uid 435,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "210400,23000,215900,23900"
+xt "210400,23000,216500,24000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -2083,7 +2083,7 @@ radius 8000
 name (Text
 uid 447,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "227700,21300,240300,22700"
 st "sendDotDotWait"
@@ -2099,9 +2099,9 @@ uid 449,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "234100,22200,237700,23400"
+xt "234100,22200,238200,23400"
 st "wait 2"
 blo "234100,23200"
 tm "SmWaitText"
@@ -2111,7 +2111,7 @@ encoding (Text
 uid 450,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "234000,23100,234000,23100"
 blo "234000,23100"
@@ -2199,7 +2199,7 @@ inActions (MLText
 uid 460,0
 va (VaSet
 )
-xt "229300,24000,253900,26000"
+xt "229300,24000,252700,26400"
 st "unitNb <= to_unsigned(1, unitNb'length);
 morseOut <= '1';"
 tm "Actions"
@@ -2219,9 +2219,9 @@ text (MLText
 uid 452,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "232400,23000,237900,23900"
+xt "232400,23000,238500,24000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -2243,7 +2243,7 @@ radius 8386
 name (Text
 uid 504,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "205100,56300,218900,57700"
 st "sendDotDashStart"
@@ -2259,9 +2259,9 @@ uid 506,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "212100,57200,215700,58400"
+xt "212100,57200,216200,58400"
 st "wait 2"
 blo "212100,58200"
 tm "SmWaitText"
@@ -2271,7 +2271,7 @@ encoding (Text
 uid 507,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "212000,58100,212000,58100"
 blo "212000,58100"
@@ -2359,7 +2359,7 @@ inActions (MLText
 uid 517,0
 va (VaSet
 )
-xt "208100,59500,220700,60500"
+xt "208100,59500,220300,60700"
 st "startCounter <= '1';"
 tm "Actions"
 )
@@ -2378,9 +2378,9 @@ text (MLText
 uid 509,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "210400,58000,215900,58900"
+xt "210400,58000,216500,59000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -2402,7 +2402,7 @@ radius 8287
 name (Text
 uid 521,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "227200,56300,240800,57700"
 st "sendDotDashWait"
@@ -2418,9 +2418,9 @@ uid 523,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "234100,57200,237700,58400"
+xt "234100,57200,238200,58400"
 st "wait 2"
 blo "234100,58200"
 tm "SmWaitText"
@@ -2430,7 +2430,7 @@ encoding (Text
 uid 524,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "234000,58100,234000,58100"
 blo "234000,58100"
@@ -2518,7 +2518,7 @@ inActions (MLText
 uid 534,0
 va (VaSet
 )
-xt "229300,59000,253900,61000"
+xt "229300,59000,252700,61400"
 st "unitNb <= to_unsigned(3, unitNb'length);
 morseOut <= '1';"
 tm "Actions"
@@ -2538,9 +2538,9 @@ text (MLText
 uid 526,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "232400,58000,237900,58900"
+xt "232400,58000,238500,59000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -2562,7 +2562,7 @@ radius 8000
 name (Text
 uid 588,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "103250,116300,114750,117700"
 st "sendDashStart"
@@ -2578,9 +2578,9 @@ uid 590,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "109100,117200,112700,118400"
+xt "109100,117200,113200,118400"
 st "wait 2"
 blo "109100,118200"
 tm "SmWaitText"
@@ -2590,7 +2590,7 @@ encoding (Text
 uid 591,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "109000,118100,109000,118100"
 blo "109000,118100"
@@ -2678,7 +2678,7 @@ inActions (MLText
 uid 601,0
 va (VaSet
 )
-xt "109100,119700,121700,120700"
+xt "109100,119700,121300,120900"
 st "startCounter <= '1';"
 tm "Actions"
 )
@@ -2697,9 +2697,9 @@ text (MLText
 uid 593,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "107400,118000,112900,118900"
+xt "107400,118000,113500,119000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -2721,7 +2721,7 @@ radius 8000
 name (Text
 uid 605,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "125350,116300,136650,117700"
 st "sendDashWait"
@@ -2737,9 +2737,9 @@ uid 607,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "131100,117200,134700,118400"
+xt "131100,117200,135200,118400"
 st "wait 2"
 blo "131100,118200"
 tm "SmWaitText"
@@ -2749,7 +2749,7 @@ encoding (Text
 uid 608,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "131000,118100,131000,118100"
 blo "131000,118100"
@@ -2837,7 +2837,7 @@ inActions (MLText
 uid 618,0
 va (VaSet
 )
-xt "123300,119000,147900,121000"
+xt "123300,119000,146700,121400"
 st "unitNb <= to_unsigned(3, unitNb'length);
 morseOut <= '1';"
 tm "Actions"
@@ -2857,9 +2857,9 @@ text (MLText
 uid 610,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "129400,118000,134900,118900"
+xt "129400,118000,135500,119000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -2881,7 +2881,7 @@ radius 9476
 name (Text
 uid 622,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "145950,116300,162050,117700"
 st "sendDahsSpacerStart"
@@ -2897,9 +2897,9 @@ uid 624,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "154100,117200,157700,118400"
+xt "154100,117200,158200,118400"
 st "wait 2"
 blo "154100,118200"
 tm "SmWaitText"
@@ -2909,7 +2909,7 @@ encoding (Text
 uid 625,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "154000,118100,154000,118100"
 blo "154000,118100"
@@ -2997,7 +2997,7 @@ inActions (MLText
 uid 635,0
 va (VaSet
 )
-xt "151100,119500,163700,120500"
+xt "151100,119500,163300,120700"
 st "startCounter <= '1';"
 tm "Actions"
 )
@@ -3016,9 +3016,9 @@ text (MLText
 uid 627,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "152400,118000,157900,118900"
+xt "152400,118000,158500,119000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -3040,7 +3040,7 @@ radius 8930
 name (Text
 uid 639,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "168050,116300,183950,117700"
 st "sendDashSpacerWait"
@@ -3056,9 +3056,9 @@ uid 641,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "176100,117200,179700,118400"
+xt "176100,117200,180200,118400"
 st "wait 2"
 blo "176100,118200"
 tm "SmWaitText"
@@ -3068,7 +3068,7 @@ encoding (Text
 uid 642,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "176000,118100,176000,118100"
 blo "176000,118100"
@@ -3156,7 +3156,7 @@ inActions (MLText
 uid 652,0
 va (VaSet
 )
-xt "168300,119500,192900,120500"
+xt "168300,119500,191700,120700"
 st "unitNb <= to_unsigned(1, unitNb'length);"
 tm "Actions"
 )
@@ -3175,9 +3175,9 @@ text (MLText
 uid 644,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "174400,118000,179900,118900"
+xt "174400,118000,180500,119000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -3199,7 +3199,7 @@ radius 8336
 name (Text
 uid 656,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "207100,116300,220900,117700"
 st "sendDashDotStart"
@@ -3215,9 +3215,9 @@ uid 658,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "214100,117200,217700,118400"
+xt "214100,117200,218200,118400"
 st "wait 2"
 blo "214100,118200"
 tm "SmWaitText"
@@ -3227,7 +3227,7 @@ encoding (Text
 uid 659,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "214000,118100,214000,118100"
 blo "214000,118100"
@@ -3315,7 +3315,7 @@ inActions (MLText
 uid 669,0
 va (VaSet
 )
-xt "210100,119500,222700,120500"
+xt "210100,119500,222300,120700"
 st "startCounter <= '1';"
 tm "Actions"
 )
@@ -3334,9 +3334,9 @@ text (MLText
 uid 661,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "212400,118000,217900,118900"
+xt "212400,118000,218500,119000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -3358,7 +3358,7 @@ radius 8831
 name (Text
 uid 673,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "206600,151300,221400,152700"
 st "sendDashDashStart"
@@ -3374,9 +3374,9 @@ uid 675,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "214100,152200,217700,153400"
+xt "214100,152200,218200,153400"
 st "wait 2"
 blo "214100,153200"
 tm "SmWaitText"
@@ -3386,7 +3386,7 @@ encoding (Text
 uid 676,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "214000,153100,214000,153100"
 blo "214000,153100"
@@ -3474,7 +3474,7 @@ inActions (MLText
 uid 686,0
 va (VaSet
 )
-xt "210100,154500,222700,155500"
+xt "210100,154500,222300,155700"
 st "startCounter <= '1';"
 tm "Actions"
 )
@@ -3493,9 +3493,9 @@ text (MLText
 uid 678,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "212400,153000,217900,153900"
+xt "212400,153000,218500,154000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -3517,7 +3517,7 @@ radius 8237
 name (Text
 uid 690,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "229200,116300,242800,117700"
 st "sendDashDotWait"
@@ -3533,9 +3533,9 @@ uid 692,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "236100,117200,239700,118400"
+xt "236100,117200,240200,118400"
 st "wait 2"
 blo "236100,118200"
 tm "SmWaitText"
@@ -3545,7 +3545,7 @@ encoding (Text
 uid 693,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "236000,118100,236000,118100"
 blo "236000,118100"
@@ -3633,7 +3633,7 @@ inActions (MLText
 uid 703,0
 va (VaSet
 )
-xt "231300,119000,255900,121000"
+xt "231300,119000,254700,121400"
 st "unitNb <= to_unsigned(1, unitNb'length);
 morseOut <= '1';"
 tm "Actions"
@@ -3653,9 +3653,9 @@ text (MLText
 uid 695,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "234400,118000,239900,118900"
+xt "234400,118000,240500,119000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -3677,7 +3677,7 @@ radius 8732
 name (Text
 uid 707,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
 xt "228700,151300,243300,152700"
 st "sendDashDashWait"
@@ -3693,9 +3693,9 @@ uid 709,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "236100,152200,239700,153400"
+xt "236100,152200,240200,153400"
 st "wait 2"
 blo "236100,153200"
 tm "SmWaitText"
@@ -3705,7 +3705,7 @@ encoding (Text
 uid 710,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "236000,153100,236000,153100"
 blo "236000,153100"
@@ -3793,7 +3793,7 @@ inActions (MLText
 uid 720,0
 va (VaSet
 )
-xt "231300,154000,255900,156000"
+xt "231300,154000,254700,156400"
 st "unitNb <= to_unsigned(3, unitNb'length);
 morseOut <= '1';"
 tm "Actions"
@@ -3813,9 +3813,9 @@ text (MLText
 uid 712,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "234400,153000,239900,153900"
+xt "234400,153000,240500,154000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -3837,12 +3837,12 @@ radius 8000
 name (Text
 uid 1029,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
-xt "36550,53350,41450,54650"
+xt "35800,53350,42200,54750"
 st "popChar"
 ju 0
-blo "39000,54350"
+blo "39000,54550"
 tm "ONodeName"
 )
 wait (TextAssociate
@@ -3853,9 +3853,9 @@ uid 1031,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "39100,54250,42700,55450"
+xt "39100,54250,43200,55450"
 st "wait 2"
 blo "39100,55250"
 tm "SmWaitText"
@@ -3865,7 +3865,7 @@ encoding (Text
 uid 1032,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "39000,55050,39000,55050"
 blo "39000,55050"
@@ -3953,7 +3953,7 @@ inActions (MLText
 uid 1042,0
 va (VaSet
 )
-xt "26700,56500,51300,57500"
+xt "26700,56500,50100,57700"
 st "unitNb <= to_unsigned(3, unitNb'length);"
 tm "Actions"
 )
@@ -3972,9 +3972,9 @@ text (MLText
 uid 1034,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "37400,55000,42900,55900"
+xt "37400,55000,43500,56000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -3996,12 +3996,12 @@ radius 8000
 name (Text
 uid 1085,0
 va (VaSet
-font "courier,12,1"
+font "Verdana,12,1"
 )
-xt "36200,85350,41800,86650"
+xt "35350,85350,42650,86750"
 st "popChar1"
 ju 0
-blo "39000,86350"
+blo "39000,86550"
 tm "ONodeName"
 )
 wait (TextAssociate
@@ -4012,9 +4012,9 @@ uid 1087,0
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
-xt "39100,86250,42700,87450"
+xt "39100,86250,43200,87450"
 st "wait 2"
 blo "39100,87250"
 tm "SmWaitText"
@@ -4024,7 +4024,7 @@ encoding (Text
 uid 1088,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "39000,87050,39000,87050"
 blo "39000,87050"
@@ -4112,7 +4112,7 @@ inActions (MLText
 uid 1098,0
 va (VaSet
 )
-xt "32700,88000,45300,90000"
+xt "32700,88000,44900,90400"
 st "readChar <= '1';
 startCounter <= '1';"
 tm "Actions"
@@ -4132,9 +4132,9 @@ text (MLText
 uid 1090,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "37400,87000,42900,87900"
+xt "37400,87000,43500,88000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -4187,7 +4187,7 @@ condition (MLText
 uid 105,0
 va (VaSet
 )
-xt "9500,19000,16700,20000"
+xt "9500,19000,16100,20200"
 st "reset = '1'"
 tm "Condition"
 )
@@ -4196,7 +4196,7 @@ uid 106,0
 va (VaSet
 isHidden 1
 )
-xt "8900,20800,17300,21800"
+xt "8900,20800,17500,22000"
 st "< Automatic >"
 tm "Actions"
 )
@@ -4220,10 +4220,10 @@ uid 109,0
 va (VaSet
 isHidden 1
 )
-xt "6200,19500,7000,20500"
+xt "5900,19500,7300,20700"
 st "1"
 ju 0
-blo "6600,20300"
+blo "6600,20500"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -4307,10 +4307,10 @@ uid 119,0
 va (VaSet
 isHidden 1
 )
-xt "5795,14500,6595,15500"
+xt "5495,14500,6895,15700"
 st "1"
 ju 0
-blo "6195,15300"
+blo "6195,15500"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -4362,9 +4362,9 @@ pts [
 condition (MLText
 uid 186,0
 va (VaSet
-font "courier,12,0"
+font "Verdana,12,0"
 )
-xt "48050,20500,61350,21800"
+xt "48050,20500,61550,21900"
 st "charNotReady = '0'"
 tm "Condition"
 )
@@ -4395,10 +4395,10 @@ uid 190,0
 va (VaSet
 isHidden 1
 )
-xt "48000,21546,48800,22546"
+xt "47700,21546,49100,22746"
 st "1"
 ju 0
-blo "48400,22346"
+blo "48400,22546"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -4453,7 +4453,7 @@ condition (MLText
 uid 213,0
 va (VaSet
 )
-xt "78850,17500,109450,20500"
+xt "78850,17500,106250,21100"
 st "character'val(to_integer(unsigned(char))) = 'e' or
 character'val(to_integer(unsigned(char))) = 'i' or
 character'val(to_integer(unsigned(char))) = 'a'"
@@ -4484,10 +4484,10 @@ pr (Text
 uid 217,0
 va (VaSet
 )
-xt "78800,21513,79600,22513"
+xt "78500,21513,79900,22713"
 st "1"
 ju 0
-blo "79200,22313"
+blo "79200,22513"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -4569,10 +4569,10 @@ pr (Text
 uid 227,0
 va (VaSet
 )
-xt "67612,35077,68412,36077"
+xt "67312,35077,68712,36277"
 st "3"
 ju 0
-blo "68012,35877"
+blo "68012,36077"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -4655,10 +4655,10 @@ uid 351,0
 va (VaSet
 isHidden 1
 )
-xt "115200,21566,116000,22566"
+xt "114900,21566,116300,22766"
 st "1"
 ju 0
-blo "115600,22366"
+blo "115600,22566"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -4712,7 +4712,7 @@ condition (MLText
 uid 357,0
 va (VaSet
 )
-xt "112266,58500,141066,59500"
+xt "112266,58500,138366,59700"
 st "character'val(to_integer(unsigned(char))) = 'e'"
 tm "Condition"
 )
@@ -4741,10 +4741,10 @@ pr (Text
 uid 361,0
 va (VaSet
 )
-xt "118995,36283,119795,37283"
+xt "118695,36283,120095,37483"
 st "2"
 ju 0
-blo "119395,37083"
+blo "119395,37283"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -4827,10 +4827,10 @@ uid 407,0
 va (VaSet
 isHidden 1
 )
-xt "160677,21570,161477,22570"
+xt "160377,21570,161777,22770"
 st "1"
 ju 0
-blo "161077,22370"
+blo "161077,22570"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -4911,10 +4911,10 @@ pr (Text
 uid 417,0
 va (VaSet
 )
-xt "137241,21520,138041,22520"
+xt "136941,21520,138341,22720"
 st "3"
 ju 0
-blo "137641,22320"
+blo "137641,22520"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -4970,7 +4970,7 @@ condition (MLText
 uid 423,0
 va (VaSet
 )
-xt "128000,6000,138800,7000"
+xt "128000,6000,138400,7200"
 st "counterDone = '0'"
 tm "Condition"
 )
@@ -4999,10 +4999,10 @@ pr (Text
 uid 427,0
 va (VaSet
 )
-xt "133847,12572,134647,13572"
+xt "133547,12572,134947,13772"
 st "1"
 ju 0
-blo "134247,13372"
+blo "134247,13572"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -5058,7 +5058,7 @@ condition (MLText
 uid 467,0
 va (VaSet
 )
-xt "233000,6000,243800,7000"
+xt "233000,6000,243400,7200"
 st "counterDone = '0'"
 tm "Condition"
 )
@@ -5087,10 +5087,10 @@ pr (Text
 uid 471,0
 va (VaSet
 )
-xt "238847,12572,239647,13572"
+xt "238547,12572,239947,13772"
 st "1"
 ju 0
-blo "239247,13372"
+blo "239247,13572"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -5173,10 +5173,10 @@ uid 481,0
 va (VaSet
 isHidden 1
 )
-xt "220200,21513,221000,22513"
+xt "219900,21513,221300,22713"
 st "1"
 ju 0
-blo "220600,22313"
+blo "220600,22513"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -5229,7 +5229,7 @@ condition (MLText
 uid 487,0
 va (VaSet
 )
-xt "184400,20500,213200,21500"
+xt "184400,20500,210200,21700"
 st "character'val(to_integer(unsigned(char))) = 'i'"
 tm "Condition"
 )
@@ -5258,10 +5258,10 @@ pr (Text
 uid 491,0
 va (VaSet
 )
-xt "184240,21587,185040,22587"
+xt "183940,21587,185340,22787"
 st "2"
 ju 0
-blo "184640,22387"
+blo "184640,22587"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -5343,10 +5343,10 @@ pr (Text
 uid 501,0
 va (VaSet
 )
-xt "214294,37822,215094,38822"
+xt "213994,37822,215394,39022"
 st "2"
 ju 0
-blo "214694,38622"
+blo "214694,38822"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -5402,7 +5402,7 @@ condition (MLText
 uid 541,0
 va (VaSet
 )
-xt "233000,41000,243800,42000"
+xt "233000,41000,243400,42200"
 st "counterDone = '0'"
 tm "Condition"
 )
@@ -5431,10 +5431,10 @@ pr (Text
 uid 545,0
 va (VaSet
 )
-xt "238944,47382,239744,48382"
+xt "238644,47382,240044,48582"
 st "1"
 ju 0
-blo "239344,48182"
+blo "239344,48382"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -5517,10 +5517,10 @@ uid 555,0
 va (VaSet
 isHidden 1
 )
-xt "220518,56513,221318,57513"
+xt "220218,56513,221618,57713"
 st "1"
 ju 0
-blo "220918,57313"
+blo "220918,57513"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -5601,10 +5601,10 @@ pr (Text
 uid 565,0
 va (VaSet
 )
-xt "181395,30538,182195,31538"
+xt "181095,30538,182495,31738"
 st "3"
 ju 0
-blo "181795,31338"
+blo "181795,31538"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -5686,10 +5686,10 @@ pr (Text
 uid 575,0
 va (VaSet
 )
-xt "213105,69668,213905,70668"
+xt "212805,69668,214205,70868"
 st "2"
 ju 0
-blo "213505,70468"
+blo "213505,70668"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -5745,7 +5745,7 @@ condition (MLText
 uid 581,0
 va (VaSet
 )
-xt "175000,7000,185800,8000"
+xt "175000,7000,185400,8200"
 st "counterDone = '0'"
 tm "Condition"
 )
@@ -5774,10 +5774,10 @@ pr (Text
 uid 585,0
 va (VaSet
 )
-xt "178975,12801,179775,13801"
+xt "178675,12801,180075,14001"
 st "1"
 ju 0
-blo "179375,13601"
+blo "179375,13801"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -5860,10 +5860,10 @@ uid 731,0
 va (VaSet
 isHidden 1
 )
-xt "222478,116513,223278,117513"
+xt "222178,116513,223578,117713"
 st "1"
 ju 0
-blo "222878,117313"
+blo "222878,117513"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -5919,7 +5919,7 @@ condition (MLText
 uid 737,0
 va (VaSet
 )
-xt "177000,102000,187800,103000"
+xt "177000,102000,187400,103200"
 st "counterDone = '0'"
 tm "Condition"
 )
@@ -5948,10 +5948,10 @@ pr (Text
 uid 741,0
 va (VaSet
 )
-xt "181098,107512,181898,108512"
+xt "180798,107512,182198,108712"
 st "1"
 ju 0
-blo "181498,108312"
+blo "181498,108512"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -6034,10 +6034,10 @@ uid 751,0
 va (VaSet
 isHidden 1
 )
-xt "222874,151513,223674,152513"
+xt "222574,151513,223974,152713"
 st "1"
 ju 0
-blo "223274,152313"
+blo "223274,152513"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -6093,7 +6093,7 @@ condition (MLText
 uid 757,0
 va (VaSet
 )
-xt "235000,101000,245800,102000"
+xt "235000,101000,245400,102200"
 st "counterDone = '0'"
 tm "Condition"
 )
@@ -6122,10 +6122,10 @@ pr (Text
 uid 761,0
 va (VaSet
 )
-xt "240927,107415,241727,108415"
+xt "240627,107415,242027,108615"
 st "1"
 ju 0
-blo "241327,108215"
+blo "241327,108415"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -6208,10 +6208,10 @@ uid 771,0
 va (VaSet
 isHidden 1
 )
-xt "163435,116578,164235,117578"
+xt "163135,116578,164535,117778"
 st "1"
 ju 0
-blo "163835,117378"
+blo "163835,117578"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -6267,7 +6267,7 @@ condition (MLText
 uid 777,0
 va (VaSet
 )
-xt "235000,136000,245800,137000"
+xt "235000,136000,245400,137200"
 st "counterDone = '0'"
 tm "Condition"
 )
@@ -6296,10 +6296,10 @@ pr (Text
 uid 781,0
 va (VaSet
 )
-xt "241081,142087,241881,143087"
+xt "240781,142087,242181,143287"
 st "1"
 ju 0
-blo "241481,142887"
+blo "241481,143087"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -6382,10 +6382,10 @@ uid 791,0
 va (VaSet
 isHidden 1
 )
-xt "117200,116566,118000,117566"
+xt "116900,116566,118300,117766"
 st "1"
 ju 0
-blo "117600,117366"
+blo "117600,117566"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -6441,7 +6441,7 @@ condition (MLText
 uid 797,0
 va (VaSet
 )
-xt "130000,101000,140800,102000"
+xt "130000,101000,140400,102200"
 st "counterDone = '0'"
 tm "Condition"
 )
@@ -6470,10 +6470,10 @@ pr (Text
 uid 801,0
 va (VaSet
 )
-xt "135847,107572,136647,108572"
+xt "135547,107572,136947,108772"
 st "1"
 ju 0
-blo "136247,108372"
+blo "136247,108572"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -6526,7 +6526,7 @@ condition (MLText
 uid 807,0
 va (VaSet
 )
-xt "186456,115518,215256,116518"
+xt "186456,115518,212256,116718"
 st "character'val(to_integer(unsigned(char))) = 'i'"
 tm "Condition"
 )
@@ -6555,10 +6555,10 @@ pr (Text
 uid 811,0
 va (VaSet
 )
-xt "186608,116591,187408,117591"
+xt "186308,116591,187708,117791"
 st "2"
 ju 0
-blo "187008,117391"
+blo "187008,117591"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -6639,10 +6639,10 @@ pr (Text
 uid 821,0
 va (VaSet
 )
-xt "183604,125829,184404,126829"
+xt "183304,125829,184704,127029"
 st "3"
 ju 0
-blo "184004,126629"
+blo "184004,126829"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -6723,10 +6723,10 @@ pr (Text
 uid 831,0
 va (VaSet
 )
-xt "139152,116520,139952,117520"
+xt "138852,116520,140252,117720"
 st "3"
 ju 0
-blo "139552,117320"
+blo "139552,117520"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -6781,7 +6781,7 @@ condition (MLText
 uid 837,0
 va (VaSet
 )
-xt "78950,38500,109550,41500"
+xt "78950,38500,106350,42100"
 st "character'val(to_integer(unsigned(char))) = 't' or
 character'val(to_integer(unsigned(char))) = 'n' or
 character'val(to_integer(unsigned(char))) = 'm'"
@@ -6812,10 +6812,10 @@ pr (Text
 uid 841,0
 va (VaSet
 )
-xt "76709,35952,77509,36952"
+xt "76409,35952,77809,37152"
 st "2"
 ju 0
-blo "77109,36752"
+blo "77109,36952"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -6869,7 +6869,7 @@ condition (MLText
 uid 847,0
 va (VaSet
 )
-xt "96283,132000,125083,133000"
+xt "96283,132000,122183,133200"
 st "character'val(to_integer(unsigned(char))) = 't'"
 tm "Condition"
 )
@@ -6898,10 +6898,10 @@ pr (Text
 uid 851,0
 va (VaSet
 )
-xt "118626,128371,119426,129371"
+xt "118326,128371,119726,129571"
 st "2"
 ju 0
-blo "119026,129171"
+blo "119026,129371"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -6983,10 +6983,10 @@ pr (Text
 uid 861,0
 va (VaSet
 )
-xt "212571,128863,213371,129863"
+xt "212271,128863,213671,130063"
 st "2"
 ju 0
-blo "212971,129663"
+blo "212971,129863"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -7068,10 +7068,10 @@ pr (Text
 uid 871,0
 va (VaSet
 )
-xt "209939,159996,210739,160996"
+xt "209639,159996,211039,161196"
 st "2"
 ju 0
-blo "210339,160796"
+blo "210339,160996"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -7124,7 +7124,7 @@ condition (MLText
 uid 1049,0
 va (VaSet
 )
-xt "39066,38000,49866,39000"
+xt "39066,38000,49466,39200"
 st "counterDone = '1'"
 tm "Condition"
 )
@@ -7155,10 +7155,10 @@ uid 1053,0
 va (VaSet
 isHidden 1
 )
-xt "38794,43899,39394,44899"
+xt "38394,43899,39794,45099"
 st "1"
 ju 0
-blo "39094,44699"
+blo "39094,44899"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -7241,10 +7241,10 @@ uid 1109,0
 va (VaSet
 isHidden 1
 )
-xt "38799,75899,39399,76899"
+xt "38399,75899,39799,77099"
 st "1"
 ju 0
-blo "39099,76699"
+blo "39099,76899"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -7269,9 +7269,9 @@ textVec [
 *75 (Text
 uid 28,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "0,3000,5400,4000"
+xt "0,3000,6900,4000"
 st "Package List"
 blo "0,3800"
 )
@@ -7279,7 +7279,7 @@ blo "0,3800"
 uid 29,0
 va (VaSet
 )
-xt "0,4000,18600,7000"
+xt "0,4000,17500,7600"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;"
@@ -7295,9 +7295,9 @@ textVec [
 uid 31,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "20000,0,28100,1000"
+xt "20000,0,30200,1000"
 st "Compiler Directives"
 blo "20000,800"
 )
@@ -7305,9 +7305,9 @@ blo "20000,800"
 uid 32,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "20000,1000,29600,2000"
+xt "20000,1000,32200,2000"
 st "Pre-module directives:"
 blo "20000,1800"
 )
@@ -7316,7 +7316,7 @@ uid 33,0
 va (VaSet
 isHidden 1
 )
-xt "20000,2000,32000,4000"
+xt "20000,2000,32100,4400"
 st "`resetall
 `timescale 1ns/10ps"
 tm "SmCompilerDirectivesTextMgr"
@@ -7325,9 +7325,9 @@ tm "SmCompilerDirectivesTextMgr"
 uid 34,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "20000,4000,30100,5000"
+xt "20000,4000,32800,5000"
 st "Post-module directives:"
 blo "20000,4800"
 )
@@ -7343,9 +7343,9 @@ tm "SmCompilerDirectivesTextMgr"
 uid 36,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "20000,5000,29900,6000"
+xt "20000,5000,32400,6000"
 st "End-module directives:"
 blo "20000,5800"
 )
@@ -7360,20 +7360,23 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "255,59,1558,917"
-viewArea "-3769,-4774,320247,175293"
+windowSize "255,59,1559,917"
+viewArea "-3948,-9816,322113,211396"
 cachedDiagramExtent "0,-1000,260000,171000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
 toPrinter 1
 xMargin 49
 yMargin 49
+paperWidth 761
+paperHeight 1077
 windowsPaperWidth 761
 windowsPaperHeight 1077
-paperType "Letter (8.5\" x 11\")"
+paperType "A4"
 windowsPaperName "A4"
 windowsPaperType 9
 scale 50
+useAdjustTo 0
 exportedDirectories [
 "$HDS_PROJECT_DIR/HTMLExport"
 ]
@@ -7398,7 +7401,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "200,200,2600,1200"
+xt "200,200,3200,1400"
 st "
 Text
 "
@@ -7424,9 +7427,9 @@ autoResize 1
 text (MLText
 va (VaSet
 fg "0,0,32768"
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "450,2150,1450,3050"
+xt "450,2150,1450,3150"
 st "
 Text
 "
@@ -7450,7 +7453,7 @@ title (TextAssociate
 ps "TopLeftStrategy"
 text (Text
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "1000,1000,3800,2000"
 st "Panel0"
@@ -7459,119 +7462,110 @@ tm "PanelText"
 )
 )
 )
-localPreDecl *84 (SmLocalDecl
-uid 901,0
-stg "VerticalLayoutStrategy"
-first (Text
-uid 902,0
-va (VaSet
-isHidden 1
-font "courier,8,1"
-)
-xt "0,0,13000,900"
-st "Architecture Declarations"
-blo "0,700"
-)
-second (MLText
-uid 903,0
-va (VaSet
-isHidden 1
-font "courier,8,0"
-)
-xt "0,900,0,900"
-tm "LocalDeclTextMgr"
-)
-declType 1
-)
-localDecl *85 (SmLocalDecl
+localDecl *84 (SmLocalDecl
 uid 3,0
 stg "VerticalLayoutStrategy"
-first (Text
+textVec [
+*85 (Text
 uid 4,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "22100,-1000,35100,-100"
+xt "22100,-1000,35700,0"
 st "Architecture Declarations"
-blo "22100,-300"
+blo "22100,-200"
 )
-second (MLText
+*86 (MLText
 uid 5,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "22100,0,22100,0"
 tm "LocalDeclTextMgr"
 )
-declType 2
-)
-localPostDecl *86 (SmLocalDecl
-uid 904,0
-stg "VerticalLayoutStrategy"
-first (Text
-uid 905,0
+*87 (Text
+uid 902,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "0,0,13000,900"
-st "Architecture Declarations"
-blo "0,700"
+xt "0,0,4900,1000"
+st "Pre Decls"
+blo "0,800"
 )
-second (MLText
-uid 906,0
+*88 (MLText
+uid 903,0
 va (VaSet
 isHidden 1
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "0,900,0,900"
 tm "LocalDeclTextMgr"
 )
-declType 3
+*89 (Text
+uid 905,0
+va (VaSet
+isHidden 1
+font "Verdana,8,1"
 )
-processDecl *87 (SmProcessDecl
+xt "0,0,6100,1000"
+st "Post Decls"
+blo "0,800"
+)
+*90 (MLText
+uid 906,0
+va (VaSet
+isHidden 1
+font "Verdana,8,0"
+)
+xt "22100,-100,22100,-100"
+tm "LocalDeclTextMgr"
+)
+]
+)
+processDecl *91 (SmProcessDecl
 uid 6,0
 stg "VerticalLayoutStrategy"
 textVec [
-*88 (Text
+*92 (Text
 uid 7,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "69000,-1000,77900,0"
+xt "69000,-1000,80500,0"
 st "Process Declarations"
 blo "69000,-200"
 )
-*89 (Text
+*93 (Text
 uid 8,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "69000,0,76200,1000"
+xt "69000,0,78000,1000"
 st "Clocked Process:"
 blo "69000,800"
 )
-*90 (MLText
+*94 (MLText
 uid 9,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "69000,-1000,69000,-1000"
 tm "ProcessDeclTextMgr"
 )
-*91 (Text
+*95 (Text
 uid 10,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "69000,1000,75900,2000"
+xt "69000,1000,77700,2000"
 st "Output Process:"
 blo "69000,1800"
 )
-*92 (MLText
+*96 (MLText
 uid 11,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "69000,2000,69000,2000"
 tm "ProcessDeclTextMgr"
@@ -7579,45 +7573,45 @@ tm "ProcessDeclTextMgr"
 ]
 associable 1
 )
-defaultActions *93 (MlTextGroup
+defaultActions *97 (MlTextGroup
 uid 12,0
 stg "VerticalLayoutStrategy"
 textVec [
-*94 (Text
+*98 (Text
 uid 13,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "0,-1000,6200,0"
+xt "0,-1000,7900,0"
 st "Global Actions"
 blo "0,-200"
 )
-*95 (Text
+*99 (Text
 uid 14,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "0,0,5300,1000"
+xt "0,0,6800,1000"
 st "Pre Actions:"
 blo "0,800"
 )
-*96 (MLText
+*100 (MLText
 uid 15,0
 va (VaSet
 )
 xt "0,-1000,0,-1000"
 tm "Actions"
 )
-*97 (Text
+*101 (Text
 uid 16,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "0,1000,5800,2000"
+xt "0,1000,7400,2000"
 st "Post Actions:"
 blo "0,1800"
 )
-*98 (MLText
+*102 (MLText
 uid 17,0
 va (VaSet
 )
@@ -7627,15 +7621,15 @@ tm "Actions"
 ]
 associable 1
 )
-archConcurrentStatementBlock *99 (BiTextGroup
+archConcurrentStatementBlock *103 (BiTextGroup
 uid 18,0
 stg "VerticalLayoutStrategy"
 first (Text
 uid 19,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "9200,-1000,19100,0"
+xt "9200,-1000,21700,0"
 st "Concurrent Statements"
 blo "9200,-200"
 )
@@ -7648,42 +7642,42 @@ tm "ArchConcStmtTextMgr"
 )
 associable 1
 )
-signalsGenStatus *100 (SmSignalGenStatus
+signalsGenStatus *104 (SmSignalGenStatus
 uid 24,0
 stg "VerticalLayoutStrategy"
 first (Text
 uid 25,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "35600,-1000,41300,0"
+xt "35600,-1000,43000,0"
 st "Signal Status"
 blo "35600,-200"
 )
 second (MLText
 uid 26,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "35600,0,62800,4500"
-st "SIGNAL        MODE    DEFAULT          RESET  SCHEME 
-morseOut      OUT     '0'                     COMB   
-startCounter  OUT     '0'                     COMB   
-unitNb        OUT     (others => '0')         COMB   
-readChar      OUT     '0'                     COMB   
+xt "35600,0,64800,5000"
+st "SIGNAL        MODE    DEFAULT          RESET  SCHEME COMMENT  
+morseOut      OUT     '0'                     COMB            
+startCounter  OUT     '0'                     COMB            
+unitNb        OUT     (others => '0')         COMB            
+readChar      OUT     '0'                     COMB            
 "
 tm "SmSignalsGenStatusTextMgr"
 )
 )
-stateRegBlock *101 (BiTextGroup
+stateRegBlock *105 (BiTextGroup
 uid 21,0
 stg "VerticalLayoutStrategy"
 first (Text
 uid 22,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "44300,-1000,55100,0"
+xt "44300,-1000,58100,0"
 st "State Register Statements"
 blo "44300,-200"
 )
@@ -7786,66 +7780,66 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 1138,0
+lastUid 1167,0
 commonDM (CommonDM
 ldm (LogicalDM
 ordering 1
-emptyRow *102 (LEmptyRow
+emptyRow *106 (LEmptyRow
 )
 uid 239,0
 optionalChildren [
-*103 (RefLabelRowHdr
+*107 (RefLabelRowHdr
 )
-*104 (TitleRowHdr
+*108 (TitleRowHdr
 )
-*105 (FilterRowHdr
+*109 (FilterRowHdr
 )
-*106 (RefLabelColHdr
+*110 (RefLabelColHdr
 tm "RefLabelColHdrMgr"
 )
-*107 (RowExpandColHdr
+*111 (RowExpandColHdr
 tm "RowExpandColHdrMgr"
 )
-*108 (GroupColHdr
+*112 (GroupColHdr
 tm "GroupColHdrMgr"
 )
-*109 (NameColHdr
+*113 (NameColHdr
 tm "SmNameColHdrMgr"
 )
-*110 (ModeColHdr
+*114 (ModeColHdr
 tm "SmModeColHdrMgr"
 )
-*111 (TypeColHdr
+*115 (TypeColHdr
 tm "SmTypeColHdrMgr"
 )
-*112 (BoundsColHdr
+*116 (BoundsColHdr
 tm "SmBoundsColHdrMgr"
 )
-*113 (InitColHdr
+*117 (InitColHdr
 tm "SmInitColHdrMgr"
 )
-*114 (ColumnHdr
+*118 (ColumnHdr
 tm "SmCategoryColHdrMgr"
 )
-*115 (ColumnHdr
+*119 (ColumnHdr
 tm "SmAssignColHdrMgr"
 )
-*116 (ColumnHdr
+*120 (ColumnHdr
 tm "SmExprColHdrMgr"
 )
-*117 (ColumnHdr
+*121 (ColumnHdr
 tm "SmSchemeColHdrMgr"
 )
-*118 (ColumnHdr
+*122 (ColumnHdr
 tm "SmDefValColHdrMgr"
 )
-*119 (ColumnHdr
+*123 (ColumnHdr
 tm "SmRstValColHdrMgr"
 )
-*120 (EolColHdr
+*124 (EolColHdr
 tm "SmEolColHdrMgr"
 )
-*121 (LeafLogPort
+*125 (LeafLogPort
 port (LogicalPort
 m 1
 decl (Decl
@@ -7858,7 +7852,7 @@ uid 152,0
 scheme 0
 defVal "'0'"
 )
-*122 (LeafLogPort
+*126 (LeafLogPort
 port (LogicalPort
 decl (Decl
 n "clock"
@@ -7870,7 +7864,7 @@ uid 154,0
 cat 1
 expr "clock'EVENT AND clock = '1'"
 )
-*123 (LeafLogPort
+*127 (LeafLogPort
 port (LogicalPort
 decl (Decl
 n "reset"
@@ -7882,7 +7876,7 @@ uid 156,0
 cat 9
 expr "reset = '1'"
 )
-*124 (LeafLogPort
+*128 (LeafLogPort
 port (LogicalPort
 decl (Decl
 n "char"
@@ -7894,7 +7888,7 @@ o 5
 uid 229,0
 ass ""
 )
-*125 (LeafLogPort
+*129 (LeafLogPort
 port (LogicalPort
 m 1
 decl (Decl
@@ -7907,7 +7901,7 @@ uid 231,0
 scheme 0
 defVal "'0'"
 )
-*126 (LeafLogPort
+*130 (LeafLogPort
 port (LogicalPort
 m 1
 decl (Decl
@@ -7921,7 +7915,7 @@ uid 233,0
 scheme 0
 defVal "(others => '0')"
 )
-*127 (LeafLogPort
+*131 (LeafLogPort
 port (LogicalPort
 decl (Decl
 n "counterDone"
@@ -7932,7 +7926,7 @@ o 8
 uid 363,0
 ass ""
 )
-*128 (LeafLogPort
+*132 (LeafLogPort
 port (LogicalPort
 decl (Decl
 n "charNotReady"
@@ -7943,7 +7937,7 @@ o 4
 uid 937,0
 ass ""
 )
-*129 (LeafLogPort
+*133 (LeafLogPort
 port (LogicalPort
 m 1
 decl (Decl
@@ -7963,99 +7957,99 @@ displayShortBounds 1
 editShortBounds 1
 uid 258,0
 optionalChildren [
-*130 (Sheet
+*134 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 cellVa (MVa
 cellColor "65535,65535,65535"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 groupVa (MVa
 cellColor "39936,56832,65280"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
-emptyMRCItem *131 (MRCItem
-litem &102
+emptyMRCItem *135 (MRCItem
+litem &106
 pos 9
 dimension 20
 )
 uid 260,0
 optionalChildren [
-*132 (MRCItem
-litem &103
+*136 (MRCItem
+litem &107
 pos 0
 dimension 20
 uid 261,0
 )
-*133 (MRCItem
-litem &104
+*137 (MRCItem
+litem &108
 pos 1
 dimension 23
 uid 262,0
 )
-*134 (MRCItem
-litem &105
+*138 (MRCItem
+litem &109
 pos 2
 hidden 1
 dimension 20
 uid 263,0
 )
-*135 (MRCItem
-litem &121
+*139 (MRCItem
+litem &125
 pos 0
 dimension 20
 uid 153,0
 )
-*136 (MRCItem
-litem &122
+*140 (MRCItem
+litem &126
 pos 1
 dimension 20
 uid 155,0
 )
-*137 (MRCItem
-litem &123
+*141 (MRCItem
+litem &127
 pos 2
 dimension 20
 uid 157,0
 )
-*138 (MRCItem
-litem &124
+*142 (MRCItem
+litem &128
 pos 4
 dimension 20
 uid 228,0
 )
-*139 (MRCItem
-litem &125
+*143 (MRCItem
+litem &129
 pos 5
 dimension 20
 uid 230,0
 )
-*140 (MRCItem
-litem &126
+*144 (MRCItem
+litem &130
 pos 6
 dimension 20
 uid 232,0
 )
-*141 (MRCItem
-litem &127
+*145 (MRCItem
+litem &131
 pos 7
 dimension 20
 uid 362,0
 )
-*142 (MRCItem
-litem &128
+*146 (MRCItem
+litem &132
 pos 3
 dimension 20
 uid 936,0
 )
-*143 (MRCItem
-litem &129
+*147 (MRCItem
+litem &133
 pos 8
 dimension 20
 uid 938,0
@@ -8066,91 +8060,91 @@ sheetCol (SheetCol
 propVa (MVa
 cellColor "0,49152,49152"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 textAngle 90
 )
 uid 264,0
 optionalChildren [
-*144 (MRCItem
-litem &106
+*148 (MRCItem
+litem &110
 pos 0
 dimension 20
 uid 265,0
 )
-*145 (MRCItem
-litem &108
+*149 (MRCItem
+litem &112
 pos 1
 dimension 50
 uid 266,0
 )
-*146 (MRCItem
-litem &109
+*150 (MRCItem
+litem &113
 pos 2
 dimension 70
 uid 267,0
 )
-*147 (MRCItem
-litem &110
+*151 (MRCItem
+litem &114
 pos 3
 dimension 50
 uid 268,0
 )
-*148 (MRCItem
-litem &111
+*152 (MRCItem
+litem &115
 pos 4
 dimension 80
 uid 269,0
 )
-*149 (MRCItem
-litem &112
+*153 (MRCItem
+litem &116
 pos 5
 dimension 80
 uid 270,0
 )
-*150 (MRCItem
-litem &113
+*154 (MRCItem
+litem &117
 pos 6
 dimension 40
 uid 271,0
 )
-*151 (MRCItem
-litem &114
+*155 (MRCItem
+litem &118
 pos 7
 dimension 100
 uid 272,0
 )
-*152 (MRCItem
-litem &115
+*156 (MRCItem
+litem &119
 pos 8
 dimension 60
 uid 273,0
 )
-*153 (MRCItem
-litem &116
+*157 (MRCItem
+litem &120
 pos 9
 dimension 130
 uid 274,0
 )
-*154 (MRCItem
-litem &117
+*158 (MRCItem
+litem &121
 pos 10
 dimension 56
 uid 275,0
 )
-*155 (MRCItem
-litem &118
+*159 (MRCItem
+litem &122
 pos 11
 dimension 50
 uid 276,0
 )
-*156 (MRCItem
-litem &119
+*160 (MRCItem
+litem &123
 pos 12
 dimension 50
 uid 277,0
 )
-*157 (MRCItem
-litem &120
+*161 (MRCItem
+litem &124
 pos 13
 dimension 80
 uid 278,0
@@ -8171,41 +8165,41 @@ uid 238,0
 cdmCsm &1
 genericsCommonDM (CommonDM
 ldm (LogicalDM
-emptyRow *158 (LEmptyRow
+emptyRow *162 (LEmptyRow
 )
 uid 299,0
 optionalChildren [
-*159 (RefLabelRowHdr
+*163 (RefLabelRowHdr
 )
-*160 (TitleRowHdr
+*164 (TitleRowHdr
 )
-*161 (FilterRowHdr
+*165 (FilterRowHdr
 )
-*162 (RefLabelColHdr
+*166 (RefLabelColHdr
 tm "RefLabelColHdrMgr"
 )
-*163 (RowExpandColHdr
+*167 (RowExpandColHdr
 tm "RowExpandColHdrMgr"
 )
-*164 (GroupColHdr
+*168 (GroupColHdr
 tm "GroupColHdrMgr"
 )
-*165 (NameColHdr
+*169 (NameColHdr
 tm "GenericNameColHdrMgr"
 )
-*166 (TypeColHdr
+*170 (TypeColHdr
 tm "GenericTypeColHdrMgr"
 )
-*167 (InitColHdr
+*171 (InitColHdr
 tm "GenericValueColHdrMgr"
 )
-*168 (PragmaColHdr
+*172 (PragmaColHdr
 tm "GenericPragmaColHdrMgr"
 )
-*169 (EolColHdr
+*173 (EolColHdr
 tm "GenericEolColHdrMgr"
 )
-*170 (LogGeneric
+*174 (LogGeneric
 generic (GiElement
 name "characterBitNb"
 type "positive"
@@ -8213,7 +8207,7 @@ value "8"
 )
 uid 162,0
 )
-*171 (LogGeneric
+*175 (LogGeneric
 generic (GiElement
 name "unitCountBitNb"
 type "positive"
@@ -8228,57 +8222,57 @@ displayShortBounds 1
 editShortBounds 1
 uid 311,0
 optionalChildren [
-*172 (Sheet
+*176 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 cellVa (MVa
 cellColor "65535,65535,65535"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 groupVa (MVa
 cellColor "39936,56832,65280"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
-emptyMRCItem *173 (MRCItem
-litem &158
+emptyMRCItem *177 (MRCItem
+litem &162
 pos 2
 dimension 20
 )
 uid 313,0
 optionalChildren [
-*174 (MRCItem
-litem &159
+*178 (MRCItem
+litem &163
 pos 0
 dimension 20
 uid 314,0
 )
-*175 (MRCItem
-litem &160
+*179 (MRCItem
+litem &164
 pos 1
 dimension 23
 uid 315,0
 )
-*176 (MRCItem
-litem &161
+*180 (MRCItem
+litem &165
 pos 2
 hidden 1
 dimension 20
 uid 316,0
 )
-*177 (MRCItem
-litem &170
+*181 (MRCItem
+litem &174
 pos 0
 dimension 20
 uid 163,0
 )
-*178 (MRCItem
-litem &171
+*182 (MRCItem
+litem &175
 pos 1
 dimension 20
 uid 236,0
@@ -8289,49 +8283,49 @@ sheetCol (SheetCol
 propVa (MVa
 cellColor "0,49152,49152"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 textAngle 90
 )
 uid 317,0
 optionalChildren [
-*179 (MRCItem
-litem &162
+*183 (MRCItem
+litem &166
 pos 0
 dimension 20
 uid 318,0
 )
-*180 (MRCItem
-litem &164
+*184 (MRCItem
+litem &168
 pos 1
 dimension 50
 uid 319,0
 )
-*181 (MRCItem
-litem &165
+*185 (MRCItem
+litem &169
 pos 2
 dimension 100
 uid 320,0
 )
-*182 (MRCItem
-litem &166
+*186 (MRCItem
+litem &170
 pos 3
 dimension 100
 uid 321,0
 )
-*183 (MRCItem
-litem &167
+*187 (MRCItem
+litem &171
 pos 4
 dimension 50
 uid 322,0
 )
-*184 (MRCItem
-litem &168
+*188 (MRCItem
+litem &172
 pos 5
 dimension 50
 uid 323,0
 )
-*185 (MRCItem
-litem &169
+*189 (MRCItem
+litem &173
 pos 6
 dimension 80
 uid 324,0
@@ -8365,7 +8359,7 @@ radius 3000
 )
 name (Text
 va (VaSet
-font "courier,10,1"
+font "Verdana,10,1"
 )
 xt "0,0,1800,1200"
 st "s0"
@@ -8379,7 +8373,7 @@ text (Text
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
 xt "1000,900,4600,2100"
 st "wait 2"
@@ -8389,7 +8383,7 @@ tm "SmWaitText"
 )
 encoding (Text
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
 blo "0,0"
 tm "SmEncodingMgr"
@@ -8477,9 +8471,9 @@ ps "CenterOffsetStrategy"
 text (MLText
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "-1600,1000,3900,1900"
+xt "-1600,1000,4500,2000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -8497,7 +8491,7 @@ xt "-529,-529,6529,6529"
 )
 name (Text
 va (VaSet
-font "courier,10,1"
+font "Verdana,10,1"
 )
 xt "0,0,1800,1200"
 st "s0"
@@ -8511,7 +8505,7 @@ text (Text
 va (VaSet
 isHidden 1
 fg "0,0,32768"
-font "courier,10,1"
+font "Verdana,10,1"
 )
 xt "1000,900,4600,2100"
 st "wait 2"
@@ -8521,7 +8515,7 @@ tm "SmWaitText"
 )
 encoding (Text
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
 blo "0,0"
 tm "SmEncodingMgr"
@@ -8614,9 +8608,9 @@ ps "CenterOffsetStrategy"
 text (MLText
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "-1600,1000,3900,1900"
+xt "-1600,1000,4500,2000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -8636,7 +8630,7 @@ radius 3000
 )
 name (Text
 va (VaSet
-font "courier,10,1"
+font "Verdana,10,1"
 )
 xt "-900,-600,900,600"
 st "s0"
@@ -8656,7 +8650,7 @@ xt "-1150,-1150,2150,2150"
 )
 symbol (Text
 va (VaSet
-font "courier,10,1"
+font "Verdana,10,1"
 )
 xt "-150,-100,1150,1100"
 st "&"
@@ -8667,7 +8661,7 @@ name (TextAssociate
 ps "CenterOffsetStrategy"
 text (Text
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "2000,1000,2000,1000"
 blo "2000,1000"
@@ -8679,9 +8673,9 @@ ps "CenterOffsetStrategy"
 text (MLText
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "-1850,2000,3650,2900"
+xt "-1850,2000,4250,3000"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -8783,7 +8777,7 @@ name (TextAssociate
 ps "CenterOffsetStrategy"
 text (Text
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "2375,875,4375,1875"
 st "Link"
@@ -8856,7 +8850,7 @@ pts [
 condition (MLText
 va (VaSet
 )
-xt "0,0,5400,1000"
+xt "0,0,5300,1200"
 st "condition"
 tm "Condition"
 )
@@ -8936,7 +8930,7 @@ name (TextAssociate
 ps "CenterOffsetStrategy"
 text (Text
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "-2425,625,-1125,1625"
 st "clk"
@@ -8958,9 +8952,9 @@ xt "1625,525,3825,1725"
 autoResize 1
 cond (MLText
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "1725,625,3725,1525"
+xt "1725,625,4125,1625"
 st "cond"
 tm "SmControlConditionMgr"
 )
@@ -9022,7 +9016,7 @@ name (TextAssociate
 ps "CenterOffsetStrategy"
 text (Text
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "-3725,625,-1125,1625"
 st "enable"
@@ -9044,9 +9038,9 @@ xt "1625,525,3825,1725"
 autoResize 1
 cond (MLText
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "1725,625,3725,1525"
+xt "1725,625,4125,1625"
 st "cond"
 tm "SmControlConditionMgr"
 )
@@ -9123,9 +9117,9 @@ xt "-625,-975,1575,225"
 autoResize 1
 cond (MLText
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "-525,-875,1475,25"
+xt "-525,-875,1875,125"
 st "cond"
 tm "SmControlConditionMgr"
 )
@@ -9156,7 +9150,7 @@ name (TextAssociate
 ps "CenterOffsetStrategy"
 text (Text
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "-1925,625,-625,1625"
 st "rst"
@@ -9170,9 +9164,9 @@ ps "CenterOffsetStrategy"
 text (MLText
 va (VaSet
 isHidden 1
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "4750,2625,11750,3525"
+xt "4750,2625,11750,3625"
 st "< Automatic >"
 tm "Actions"
 )

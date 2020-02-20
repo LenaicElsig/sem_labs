@@ -1,2 +1,2 @@
-DEFAULT_ARCHITECTURE atom RTL
-DEFAULT_FILE atom toneGenerator_RTL.vhd
+DEFAULT_ARCHITECTURE atom studentVersion
+DEFAULT_FILE atom toneGenerator_studentVersion.vhd
