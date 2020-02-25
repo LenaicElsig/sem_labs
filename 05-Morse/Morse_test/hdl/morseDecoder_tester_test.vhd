@@ -30,19 +30,19 @@ BEGIN
     wait for 4*uartPeriod;
                                          -- characters with max. 2 Morse symbols
     print("Sending characters with max. 2 symbols");
-    uartInString <= pad(uartInString'length, "tea time");
+    uartInString <= pad("tea time", uartInString'length);
     uartSendInString <= '1', '0' after 1 ns;
     wait until uartSendInDone = '1';
     wait for uartWriteInterval;
                                                -- characters starting with a dot
     print("Sending characters starting with a dot");
-    uartInString <= pad(uartInString'length, "eish54v3uf2arlwpj1");
+    uartInString <= pad("eish54v3uf2arlwpj1", uartInString'length);
     uartSendInString <= '1', '0' after 1 ns;
     wait until uartSendInDone = '1';
     wait for uartWriteInterval;
                                               -- characters starting with a dash
     print("Sending characters starting with a dash");
-    uartInString <= pad(uartInString'length, "tndb6xkcymgz7qo890");
+    uartInString <= pad("tndb6xkcymgz7qo890", uartInString'length);
     uartSendInString <= '1', '0' after 1 ns;
     wait until uartSendInDone = '1';
     wait for uartWriteInterval;

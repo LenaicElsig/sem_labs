@@ -1,2 +1,2 @@
-DEFAULT_FILE atom morseToCharDecoder_RTL.vhd
-DEFAULT_ARCHITECTURE atom RTL
+DEFAULT_FILE atom morseToCharDecoder_studentVersion.vhd
+DEFAULT_ARCHITECTURE atom studentVersion

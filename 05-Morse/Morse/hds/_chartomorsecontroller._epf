@@ -1,2 +1,2 @@
-DEFAULT_ARCHITECTURE atom fsm
-DEFAULT_FILE atom char@to@morse@controller/fsm.sm
+DEFAULT_ARCHITECTURE atom studentVersion
+DEFAULT_FILE atom charToMorseController_studentVersion.vhd
