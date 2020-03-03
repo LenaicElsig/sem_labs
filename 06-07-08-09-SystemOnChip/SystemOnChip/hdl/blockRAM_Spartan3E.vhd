@@ -13,12 +13,12 @@ ARCHITECTURE Spartan3E OF blockRAM IS
     variable ramCurrentWord     : bit_vector(registerType'range);
     variable index              : natural := 0; --241;
   begin
---    for index in ramContent'range loop
-    while not endfile(ramContentFile) loop
+    for index in ramContent'range loop
+--    while not endfile(ramContentFile) loop
       readline(ramContentFile, ramContentFileLine);
       read(ramContentFileLine, ramCurrentWord);
       ramContent(index) := std_ulogic_vector(to_stdlogicvector(ramCurrentWord));
-      index := index + 1;
+--      index := index + 1;
     end loop;
     return ramContent;
   end function;
