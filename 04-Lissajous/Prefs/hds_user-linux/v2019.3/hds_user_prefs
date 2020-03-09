@@ -398,6 +398,7 @@ tasksMenubarOrder [
 "\"USER:ModelSim Flow\""
 ]
 tasksShortcutbarOrder [
+"Setup DesignChecker"
 "\"USER:ModelSim Compile\""
 "\"USER:ModelSim Flow\""
 "\"USER:ModelSim Simulate\""
@@ -5558,6 +5559,12 @@ activeViewpointIdx 0
 )
 ]
 ViewpointsOnOutlookBar [
+"Default Viewpoint"
+"Version Management"
+"HDL Files"
+"Logical Objects"
+"Requirements"
+"All Views"
 ]
 lastActiveViewpoint "Default Viewpoint"
 expandedTemplateNodes [

@@ -17,7 +17,7 @@ settingsMap [
 ]
 PreferedTasks [
 ]
-onShortcutBar 0
+onShortcutBar 1
 onPulldownMenu 0
 onToolbar 1
 enabled 1
