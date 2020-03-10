@@ -9,6 +9,7 @@ design_name=`basename $0 .bash`
 design_directory=`dirname ${BASH_SOURCE[0]}`
 
 hdl_script_name="$design_directory/Scripts/hdlDesigner.bash"
+export HEI_LIBS_DIR=$design_directory/../Libs
 
 verbose=1
 SEPARATOR='--------------------------------------------------------------------------------'
