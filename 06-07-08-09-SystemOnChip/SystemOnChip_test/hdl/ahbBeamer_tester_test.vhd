@@ -424,8 +424,12 @@ BEGIN
     print(testSeparator & cr & testInformation);
     selSinCos <= '1';
     ----------------------------------------------------------------------------
-                                                            -- end of simulation
-    wait;
+                                                              -- stop simulation
+    wait for 1 ms - now;
+    assert false
+      report "End" & cr & "     --> " &
+             "End of simulation"
+      severity failure;
   end process testSequence;
 
   ------------------------------------------------------------------------------
