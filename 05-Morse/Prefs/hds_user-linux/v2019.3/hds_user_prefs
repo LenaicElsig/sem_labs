@@ -5547,16 +5547,6 @@ declHierarchy [
 activeViewpointIdx 0
 )
 (WorkTab
-name "Board"
-showingHierarchy 0
-openLibs [
-"Board"
-]
-declHierarchy [
-]
-activeViewpointIdx 0
-)
-(WorkTab
 name "Morse"
 showingHierarchy 0
 openLibs [
@@ -5571,6 +5561,16 @@ name "Morse_test"
 showingHierarchy 0
 openLibs [
 "Morse_test"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "Board"
+showingHierarchy 0
+openLibs [
+"Board"
 ]
 declHierarchy [
 ]
@@ -5598,8 +5598,8 @@ size 59
 )
 ]
 displayHierarchy 0
-xPos 448
-yPos 107
+xPos 1752
+yPos 85
 width 1066
 height 937
 activeSidePanelTab 2
