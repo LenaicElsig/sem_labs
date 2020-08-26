@@ -1278,6 +1278,7 @@ projectPaths [
 "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\01-WaveformGenerator\\Prefs\\hds.hdp"
 "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\05-Morse\\Prefs\\hds.hdp"
 "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\hds.hdp"
+"C:\\work\\edu\\sem\\labo\\sem_labs\\05-Morse\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -5043,6 +5044,7 @@ vhdlConfigsName "%(unit)_%(view)_config"
 vhdlConfigsFileNameTemplate "%(config)"
 vhdlConfigsNameTemplate "%(unit)_%(view)_config"
 separateEntity 1
+VHDLEndFrames 0
 )
 (CompilationPreferences
 )
