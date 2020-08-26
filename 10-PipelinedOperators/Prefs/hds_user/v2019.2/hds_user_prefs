@@ -5044,6 +5044,7 @@ vhdlConfigsName "%(unit)_%(view)_config"
 vhdlConfigsFileNameTemplate "%(config)"
 vhdlConfigsNameTemplate "%(unit)_%(view)_config"
 separateEntity 1
+VHDLEndFrames 0
 )
 (CompilationPreferences
 )
