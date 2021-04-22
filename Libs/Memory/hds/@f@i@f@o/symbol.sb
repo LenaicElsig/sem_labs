@@ -17,7 +17,7 @@ libraryRefs [
 ]
 )
 version "27.1"
-appVersion "2019.3 (Build 4)"
+appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -166,17 +166,17 @@ sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 cellVa (MVa
 cellColor "65535,65535,65535"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 groupVa (MVa
 cellColor "39936,56832,65280"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 emptyMRCItem *23 (MRCItem
 litem &1
@@ -258,7 +258,7 @@ sheetCol (SheetCol
 propVa (MVa
 cellColor "0,49152,49152"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 textAngle 90
 )
 uid 236,0
@@ -364,7 +364,7 @@ tm "GenericEolColHdrMgr"
 generic (GiElement
 name "dataBitNb"
 type "positive"
-value "8"
+value "adcBitNr"
 )
 uid 427,0
 )
@@ -372,7 +372,7 @@ uid 427,0
 generic (GiElement
 name "depth"
 type "positive"
-value "8"
+value "fifoDepth"
 )
 uid 429,0
 )
@@ -388,17 +388,17 @@ sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 cellVa (MVa
 cellColor "65535,65535,65535"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 groupVa (MVa
 cellColor "39936,56832,65280"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 )
 emptyMRCItem *58 (MRCItem
 litem &43
@@ -444,7 +444,7 @@ sheetCol (SheetCol
 propVa (MVa
 cellColor "0,49152,49152"
 fontColor "0,0,0"
-font "courier,10,0"
+font "Tahoma,10,0"
 textAngle 90
 )
 uid 271,0
@@ -513,23 +513,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "/home/francois/Documents/HEVs/Idito/FPGA/Libs/Memory/hdl"
+value "C:\\Users\\fabien.matter\\Documents\\Projects\\IDITO\\FPGA\\Libs\\Memory\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/francois/Documents/HEVs/Idito/FPGA/Libs/Memory/hds"
+value "C:\\Users\\fabien.matter\\Documents\\Projects\\IDITO\\FPGA\\Libs\\Memory\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/francois/Documents/HEVs/Idito/FPGA/Libs/Memory/hds/@f@i@f@o/symbol.sb.info"
+value "C:\\Users\\fabien.matter\\Documents\\Projects\\IDITO\\FPGA\\Libs\\Memory\\hds\\@f@i@f@o\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/francois/Documents/HEVs/Idito/FPGA/Libs/Memory/hds/@f@i@f@o/symbol.sb.user"
+value "C:\\Users\\fabien.matter\\Documents\\Projects\\IDITO\\FPGA\\Libs\\Memory\\hds\\@f@i@f@o\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/francois/Documents/HEVs/Idito/FPGA/Libs/Memory/hds"
+value "C:\\Users\\fabien.matter\\Documents\\Projects\\IDITO\\FPGA\\Libs\\Memory\\hds"
 )
 (vvPair
 variable "appl"
@@ -549,27 +549,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/francois/Documents/HEVs/Idito/FPGA/Libs/Memory/hds/@f@i@f@o"
+value "C:\\Users\\fabien.matter\\Documents\\Projects\\IDITO\\FPGA\\Libs\\Memory\\hds\\@f@i@f@o"
 )
 (vvPair
 variable "d_logical"
-value "/home/francois/Documents/HEVs/Idito/FPGA/Libs/Memory/hds/FIFO"
+value "C:\\Users\\fabien.matter\\Documents\\Projects\\IDITO\\FPGA\\Libs\\Memory\\hds\\FIFO"
 )
 (vvPair
 variable "date"
-value "02/15/21"
+value "22.04.2021"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "15"
+value "22"
 )
 (vvPair
 variable "designName"
@@ -597,31 +597,31 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "francois"
+value "fabien.matter"
 )
 (vvPair
 variable "graphical_source_date"
-value "02/15/21"
+value "22.04.2021"
 )
 (vvPair
 variable "graphical_source_group"
-value "francois"
+value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "Aphrodite"
+value "WE7551"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:38:45"
+value "14:41:37"
 )
 (vvPair
 variable "group"
-value "francois"
+value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "Aphrodite"
+value "WE7551"
 )
 (vvPair
 variable "language"
@@ -629,7 +629,7 @@ value "VHDL"
 )
 (vvPair
 variable "library"
-value "memory"
+value "Memory"
 )
 (vvPair
 variable "library_downstream_Concatenation"
@@ -653,7 +653,7 @@ value "D:\\Users\\FCo HEVs\\Projets\\OCT\\Technique\\VHDL\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "02"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -661,19 +661,19 @@ value "FIFO"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "February"
+value "avril"
 )
 (vvPair
 variable "p"
-value "/home/francois/Documents/HEVs/Idito/FPGA/Libs/Memory/hds/@f@i@f@o/symbol.sb"
+value "C:\\Users\\fabien.matter\\Documents\\Projects\\IDITO\\FPGA\\Libs\\Memory\\hds\\@f@i@f@o\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/francois/Documents/HEVs/Idito/FPGA/Libs/Memory/hds/FIFO/symbol.sb"
+value "C:\\Users\\fabien.matter\\Documents\\Projects\\IDITO\\FPGA\\Libs\\Memory\\hds\\FIFO\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -717,7 +717,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "<TBD>"
+value "C:\\eda\\MentorGraphics\\ModelSim\\win32"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -749,7 +749,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "17:38:45"
+value "14:41:37"
 )
 (vvPair
 variable "unit"
@@ -757,11 +757,11 @@ value "FIFO"
 )
 (vvPair
 variable "user"
-value "francois"
+value "fabien.matter"
 )
 (vvPair
 variable "version"
-value "2019.3 (Build 4)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -812,9 +812,9 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 172,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "2000,7800,17500,8700"
+xt "2000,7800,14500,8800"
 st "write   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -855,9 +855,9 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 177,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "2000,8700,17500,9600"
+xt "2000,8700,14500,9700"
 st "clock   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -898,9 +898,9 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 182,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "2000,9600,17500,10500"
+xt "2000,9600,14500,10600"
 st "reset   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -942,9 +942,9 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 192,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "2000,10500,32000,11400"
+xt "2000,10500,29500,11500"
 st "dataOut : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -988,9 +988,9 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 197,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "2000,11400,17500,12300"
+xt "2000,11400,14600,12400"
 st "read    : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -1031,9 +1031,9 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 220,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "2000,12300,32000,13200"
+xt "2000,12300,28700,13300"
 st "dataIn  : IN     std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -1076,9 +1076,9 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 225,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "2000,13200,17500,14100"
+xt "2000,13200,15600,14200"
 st "empty   : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -1120,9 +1120,9 @@ tm "CptPortNameMgr"
 dt (MLText
 uid 233,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "2000,14100,16500,15000"
+xt "2000,14100,13800,15100"
 st "full    : OUT    std_ulogic "
 )
 thePort (LogicalPort
@@ -1155,17 +1155,17 @@ first (Text
 uid 11,0
 va (VaSet
 )
-xt "34600,27800,38200,28800"
-st "memory"
-blo "34600,28600"
+xt "34600,27800,39300,29000"
+st "Memory"
+blo "34600,28800"
 )
 second (Text
 uid 12,0
 va (VaSet
 )
-xt "34600,28800,37000,29800"
+xt "34600,29000,37900,30200"
 st "FIFO"
-blo "34600,29600"
+blo "34600,30000"
 )
 )
 gi *80 (GenericInterface
@@ -1176,13 +1176,14 @@ uid 14,0
 text (MLText
 uid 15,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "34000,32000,45500,35600"
+xt "34000,32000,47300,36000"
 st "Generic Declarations
 
-dataBitNb positive 8  
-depth     positive 8  "
+dataBitNb positive adcBitNr   
+depth     positive fifoDepth  
+"
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -1191,12 +1192,12 @@ elements [
 (GiElement
 name "dataBitNb"
 type "positive"
-value "8"
+value "adcBitNr"
 )
 (GiElement
 name "depth"
 type "positive"
-value "8"
+value "fifoDepth"
 )
 ]
 )
@@ -1231,7 +1232,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,52400,49000"
+xt "36200,48500,36200,48500"
 st "
 by %user on %dd %month %year
 "
@@ -1261,7 +1262,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,44000,56800,45000"
+xt "53200,44500,53200,44500"
 st "
 Project:
 "
@@ -1291,7 +1292,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,46000,52400,47000"
+xt "36200,46500,36200,46500"
 st "
 <enter diagram title here>
 "
@@ -1321,7 +1322,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,46000,35800,47000"
+xt "32200,46500,32200,46500"
 st "
 Title:
 "
@@ -1351,7 +1352,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,45200,66400,46200"
+xt "53200,45200,67300,46400"
 st "
 <enter comments here>
 "
@@ -1380,7 +1381,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "57200,44000,72800,45000"
+xt "57200,44500,57200,44500"
 st "
 <enter project name here>
 "
@@ -1409,7 +1410,7 @@ uid 38,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "38000,44500,47000,45500"
+xt "37350,44400,47650,45600"
 st "
 <company name>
 "
@@ -1440,7 +1441,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,47000,35200,48000"
+xt "32200,47500,32200,47500"
 st "
 Path:
 "
@@ -1470,7 +1471,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,48000,35800,49000"
+xt "32200,48500,32200,48500"
 st "
 Edited:
 "
@@ -1500,7 +1501,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,47600,48000"
+xt "36200,47500,36200,47500"
 st "
 %library/%unit/%view
 "
@@ -1544,18 +1545,18 @@ textVec [
 *93 (Text
 uid 49,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "0,0,5400,1000"
+xt "0,0,6900,1000"
 st "Package List"
 blo "0,800"
 )
 *94 (MLText
 uid 50,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "0,1000,15500,3700"
+xt "0,1000,13600,4000"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;"
@@ -1571,13 +1572,13 @@ ptrCmd ""
 toPrinter 1
 xMargin 48
 yMargin 48
-paperWidth 595
-paperHeight 842
+paperWidth 761
+paperHeight 1077
 unixPaperWidth 595
 unixPaperHeight 842
 windowsPaperWidth 761
 windowsPaperHeight 1077
-paperType "A4  (210mm x 297mm)"
+paperType "A4"
 unixPaperName "A4  (210mm x 297mm)"
 windowsPaperName "A4"
 exportedDirectories [
@@ -1600,9 +1601,9 @@ xt "0,0,15000,5000"
 text (MLText
 va (VaSet
 fg "0,0,32768"
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "200,200,2200,1100"
+xt "200,200,2500,1200"
 st "
 Text
 "
@@ -1628,9 +1629,9 @@ autoResize 1
 text (MLText
 va (VaSet
 fg "0,0,32768"
-font "courier,8,0"
+font "Verdana,8,0"
 )
-xt "450,2150,1450,3050"
+xt "450,2150,1450,3150"
 st "
 Text
 "
@@ -1701,7 +1702,7 @@ matrix (Matrix
 text (MLText
 va (VaSet
 isHidden 1
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "0,12000,0,12000"
 )
@@ -1732,7 +1733,7 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "0,750,1500,1650"
 st "In0"
@@ -1742,7 +1743,7 @@ tm "CptPortNameMgr"
 )
 dt (MLText
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 )
 thePort (LogicalPort
@@ -1770,7 +1771,7 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "0,750,3500,1650"
 st "Buffer0"
@@ -1780,7 +1781,7 @@ tm "CptPortNameMgr"
 )
 dt (MLText
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 )
 thePort (LogicalPort
@@ -1800,7 +1801,7 @@ stg "SymDeclLayoutStrategy"
 declLabel (Text
 uid 2,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "0,5800,7000,6800"
 st "Declarations"
@@ -1809,7 +1810,7 @@ blo "0,6600"
 portLabel (Text
 uid 3,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "0,6800,3400,7800"
 st "Ports:"
@@ -1818,17 +1819,17 @@ blo "0,7600"
 externalLabel (Text
 uid 4,0
 va (VaSet
-font "courier,8,1"
+font "Verdana,8,1"
 )
-xt "0,15000,2500,15900"
+xt "0,15000,3000,16000"
 st "User:"
-blo "0,15700"
+blo "0,15800"
 )
 internalLabel (Text
 uid 6,0
 va (VaSet
 isHidden 1
-font "courier,8,1"
+font "Verdana,8,1"
 )
 xt "0,5800,7600,6800"
 st "Internal User:"
@@ -1837,7 +1838,7 @@ blo "0,6600"
 externalText (MLText
 uid 5,0
 va (VaSet
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "2000,15900,2000,15900"
 tm "SyDeclarativeTextMgr"
@@ -1846,13 +1847,13 @@ internalText (MLText
 uid 7,0
 va (VaSet
 isHidden 1
-font "courier,8,0"
+font "Verdana,8,0"
 )
 xt "0,5800,0,5800"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 476,0
+lastUid 499,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"
