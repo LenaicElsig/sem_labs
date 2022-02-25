@@ -12,6 +12,6 @@ BEGIN
             square <= (others => '0');
         end if;
     end process squareToggle;
-    
+    --
     --square <= (others => '0');
 END ARCHITECTURE studentVersion;
